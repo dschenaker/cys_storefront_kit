@@ -6,7 +6,6 @@
     "hero": "assets/branding/cys/hero.jpg",
     "accent": "#0f172a"
   },
-
   "sku_allowlist": [
     "CYS-Staff-Polo",
     "CYS-Long-Sleeve-Logo",
@@ -16,11 +15,11 @@
     "CYS-Flow-Long-Sleeve",
     "CYS-Flow-Short-Sleeve",
     "CYS-Sweater",
-    "CYS-1/4 Zip-Female",
+    "CYS-1/4-Zip-Female",
     "CYS-Full-Zip-Male",
-    "CYS-Full Zip-Female",
-    "CYS-Tablecloth",
-    "CYS-Tablecloth",
+    "CYS-Full-Zip-Female",
+    "CYS-Tablecloth-6",
+    "CYS-Tablecloth-8",
     "CYS-Sleeveless"
   ],
   "sku_prefixes": ["CYS-"]
