@@ -1,0 +1,27 @@
+{
+  "name": "CYS Storefront",
+  "slug": "cys",
+  "brand": {
+    "logo": "assets/branding/cys/logo.png",
+    "hero": "assets/branding/cys/hero.jpg",
+    "accent": "#0f172a"
+  },
+
+  "sku_allowlist": [
+    "CYS-Staff-Polo",
+    "CYS-Long-Sleeve-Logo",
+    "CYS-Short-Sleeve-Logo",
+    "CYS-Gray-Green",
+    "CYS-Gradient",
+    "CYS-Flow-Long-Sleeve",
+    "CYS-Flow-Short-Sleeve",
+    "CYS-Sweater",
+    "CYS-1/4 Zip-Female",
+    "CYS-Full-Zip-Male",
+    "CYS-Full Zip-Female",
+    "CYS-Tablecloth",
+    "CYS-Tablecloth",
+    "CYS-Sleeveless"
+  ],
+  "sku_prefixes": ["CYS-"]
+}
