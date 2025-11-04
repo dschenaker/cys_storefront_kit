@@ -4,11 +4,12 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "sync:notion": "node scripts/notion_sync.js"
+    "sync:notion": "node scripts/notion_sync.js",
+    "sync": "node scripts/sync_simple.mjs"
   },
   "dependencies": {
-    "@notionhq/client": "^2.2.14",
-    "dotenv": "^16.4.5",
-    "stripe": "^19.2.0"
+    "@notionhq/client": "2.2.15",
+    "dotenv": "16.4.5",
+    "stripe": "16.10.0"
   }
 }
