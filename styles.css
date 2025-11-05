@@ -1,11 +1,42 @@
-:root { --accent:#0f172a; }
+:root{
+  --bg:#0b0f14; --card:#141a22; --ink:#e6f0ff; --muted:#8aa0b6; --accent:#0f172a; --good:#1db954;
+  --gap:16px; --radius:14px;
+  --shadow:0 4px 14px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font:16px/1.45 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue","Noto Sans",Arial}
+img{max-width:100%;display:block}
 
-/* card visuals used by app.js */
-.card{background:#0b0f14;border:1px solid #111;border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:10px}
-.card-img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:10px;background:#111}
-.card-title{font-weight:700}
-.card-price{color:#09c372;font-weight:800}
-.card-variants{display:flex;flex-wrap:wrap;gap:6px}
-.chip{font-size:.75rem;padding:4px 8px;border-radius:999px;background:#111;border:1px solid #222}
-.card-buy{display:block;text-align:center;padding:10px 12px;border-radius:10px;background:var(--accent);color:#fff;text-decoration:none}
-.card-buy:hover{filter:brightness(1.1)}
+.site-header{display:flex;align-items:center;gap:12px;padding:18px 20px;border-bottom:1px solid #1d2631}
+.brand-logo{height:32px;width:auto;object-fit:contain}
+.site-footer{padding:24px 20px;color:var(--muted);border-top:1px solid #1d2631}
+
+.hero{min-height:120px;background-size:cover;background-position:center;border-bottom:1px solid #1d2631;opacity:.9}
+.wrap{max-width:1200px;margin:0 auto;padding:20px}
+
+.flash{margin:12px 0;padding:12px 14px;background:#2a0f14;border:1px solid #86202e;border-radius:10px}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(1,1fr);
+  gap:var(--gap);
+}
+@media (min-width:640px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:900px){.grid{grid-template-columns:repeat(3,1fr)}}
+@media (min-width:1180px){.grid{grid-template-columns:repeat(4,1fr)}}
+
+.card{
+  background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;display:flex;flex-direction:column
+}
+.card-media{aspect-ratio:16/10;background:
+    repeating-linear-gradient(45deg,#1e2937 0 8px,#1b2431 8px 16px);
+  display:flex;align-items:center;justify-content:center;color:#6c7f95;font-size:12px}
+.card-body{padding:14px 14px 6px}
+.card-title{margin:0 0 6px;font-weight:700}
+.card-price{color:var(--good);font-weight:700;margin-bottom:10px}
+
+.card-foot{padding:0 14px 14px}
+.card-buy{
+  width:100%;display:inline-block;text-align:center;padding:12px 10px;background:#11171f;color:#fff;
+  border-radius:10px;text-decoration:none;font-weight:700;border:1px solid #2a3543
+}
+.card-buy:hover{filter:brightness(1.15)}
