@@ -2,6 +2,13 @@
   --bg:#0b0f14; --card:#141a22; --ink:#e6f0ff; --muted:#8aa0b6; --accent:#0f172a; --good:#1db954;
   --gap:16px; --radius:14px;
   --shadow:0 4px 14px rgba(0,0,0,.25);
+  --accent: #0f172a;
+  --text: #e5f2ff;
+  --muted: #9fb3c8;
+  --card: #101826;
+  --card-edge: #22334a;
+  --btn: #0ea5e9;
+  --btn-text: #ffffff;
 }
 *{box-sizing:border-box}
 html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font:16px/1.45 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue","Noto Sans",Arial}
@@ -40,3 +47,37 @@ img{max-width:100%;display:block}
   border-radius:10px;text-decoration:none;font-weight:700;border:1px solid #2a3543
 }
 .card-buy:hover{filter:brightness(1.15)}
+/* Header / hero */
+.site-header { background: var(--accent); }
+.hero {
+  position: relative;
+  min-height: 220px;
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  align-items: center;
+  gap: 20px;
+  padding: 24px 24px 32px;
+  color: var(--text);
+  overflow: hidden;
+}
+.hero::after {
+  content: "";
+  position: absolute; inset: 0;
+  background: url("") center/cover no-repeat;
+  opacity: 0.15; pointer-events: none;
+}
+#brand-logo { width: 120px; height: 120px; object-fit: contain; }
+.hero-text h1 { margin: 0 0 6px; font-size: 2rem; }
+.hero-text p { margin: 0; color: var(--muted); }
+
+/* Grid/cards (reuse your existing, just ensure these vars help) */
+.grid { padding: 24px; display: grid; grid-template-columns: repeat(auto-fill,minmax(280px,1fr)); gap: 18px; }
+.card { background: var(--card); border: 1px solid var(--card-edge); border-radius: 14px; overflow: hidden; }
+.card-media { aspect-ratio: 16/9; background: #0b1220; display:flex; align-items:center; justify-content:center; }
+.card-title { padding: 10px 14px 0; font-weight: 700; color: var(--text); }
+.card-price { padding: 0 14px 10px; color: #22c55e; }
+.card-actions { padding: 14px; }
+.btn { width: 100%; padding: 10px 14px; background: var(--btn); color: var(--btn-text); border: 0; border-radius: 10px; cursor: pointer; }
+.btn:hover { filter: brightness(1.05); }
+
+.site-footer { padding: 24px; color: var(--muted); }

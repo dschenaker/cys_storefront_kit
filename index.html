@@ -6,25 +6,72 @@
   <title>CYS Storefront</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
+<<body>
   <header class="site-header">
-    <img id="brandLogo" class="brand-logo" alt="Brand logo" />
-    <h1 id="siteTitle">CYS Storefront</h1>
+    <div class="hero">
+      <img id="brand-logo" alt="Brand logo" />
+      <div class="hero-text">
+        <h1 id="site-title">Storefront</h1>
+        <p id="site-subtitle"></p>
+      </div>
+    </div>
   </header>
 
   <main>
-    <section id="hero" class="hero"></section>
-
-    <section class="wrap">
-      <div id="flash" class="flash" hidden></div>
-      <div id="grid" class="grid"></div>
-    </section>
+    <div id="grid" class="grid"></div>
   </main>
 
   <footer class="site-footer">
-    <small>© <span id="year"></span> <span id="brandName">CYS Storefront</span> — Powered by Notion & Stripe</small>
+    © <span id="year"></span> <span id="brand-name">Storefront</span> — Powered by Notion & Stripe
   </footer>
 
-  <script type="module" src="./app.js"></script>
+  <script src="app.js" defer></script>
+  <div id="customizer" hidden>
+  <div class="panel">
+    <h3>Customizer</h3>
+    <label>Heading <input id="c-heading"></label>
+    <label>Subheading <input id="c-subheading"></label>
+    <label>Accent <input id="c-accent" type="color"></label>
+    <label>Button <input id="c-btn" type="color"></label>
+    <button id="c-apply">Preview</button>
+    <button id="c-copy">Copy JSON</button>
+  </div>
+</div>
+<script>
+  if (location.search.includes("edit=1")) {
+    const el = document.getElementById("customizer");
+    el.hidden = false;
+    const q = s=>document.querySelector(s);
+    const apply = ()=>{
+      const out = {
+        heading: q("#c-heading").value || undefined,
+        subheading: q("#c-subheading").value || undefined,
+        theme: {
+          accent: q("#c-accent").value || undefined,
+          btn: q("#c-btn").value || undefined
+        }
+      };
+      // apply live
+      if (out.heading) document.getElementById("site-title").textContent = out.heading;
+      if (out.subheading!=null) document.getElementById("site-subtitle").textContent = out.subheading;
+      if (out.theme?.accent) document.documentElement.style.setProperty("--accent", out.theme.accent);
+      if (out.theme?.btn) document.documentElement.style.setProperty("--btn", out.theme.btn);
+      return out;
+    };
+    q("#c-apply").onclick = apply;
+    q("#c-copy").onclick = ()=>{
+      apply();
+      navigator.clipboard.writeText(JSON.stringify(apply(), null, 2));
+      alert("Copied JSON. Paste into data/client.json and commit.");
+    };
+  }
+</script>
+<style>
+  #customizer .panel { position: fixed; right: 12px; bottom: 12px; background:#0b1220; color:#e5f2ff; border:1px solid #22334a; border-radius:12px; padding:12px; width:280px; z-index:9999; display:grid; gap:8px;}
+  #customizer label { display:grid; gap:6px; font-size:.9rem; }
+  #customizer input { padding:6px 8px; border-radius:8px; border:1px solid #22334a; background:#0f172a; color:#e5f2ff;}
+  #customizer button { padding:8px 10px; border-radius:8px; border:0; background:#0ea5e9; color:#fff; cursor:pointer;}
+  #customizer h3 { margin:0 0 4px; font-size:1rem; }
+</style>
 </body>
 </html>

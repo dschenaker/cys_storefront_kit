@@ -1,10 +1,23 @@
 {
   "name": "CYS Storefront",
   "slug": "cys",
+
   "brand": {
-    "logo": "assets/media/cys-logo.jpg",
-    "hero": "assets/media/cys-hero.jpg",
-    "accent": "#0f172a"
+    "logo": "assets/branding/cys/logo.jpg",
+    "hero": "assets/branding/cys/hero.jpg"
+  },
+
+  "heading": "CYS Storefront",
+  "subheading": "Official merch • quick checkout via Stripe",
+
+  "theme": {
+    "accent": "#0f172a",
+    "text": "#e5f2ff",
+    "muted": "#9fb3c8",
+    "card": "#101826",
+    "cardEdge": "#22334a",
+    "btn": "#0ea5e9",
+    "btnText": "#ffffff"
   },
   "sku_allowlist": [
     "CYS-Staff-Polo",
