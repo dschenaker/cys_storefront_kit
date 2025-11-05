@@ -1,113 +1,71 @@
-// app.js — client-aware storefront
-async function loadJSON(url) {
-  const res = await fetch(url, { cache: "no-store" });
-  if (!res.ok) throw new Error(`Fetch failed: ${url} -> ${res.status}`);
-  return res.json();
-}
+// app.js
+async function loadAll() {
+  const client = await (await fetch('data/client.json')).json();
+  const res = await fetch('data/products.json', { cache: 'no-store' });
+  let products = await res.json();
 
-function applyBranding(client) {
-  const name = client?.name || "Storefront";
-  const brand = client?.brand || {};
-
-  // Page title + navbar title
-  document.title = `${name}`;
-  const brandEl = document.querySelector("[data-brand]");
-  if (brandEl) brandEl.textContent = name;
-
-  // Logo
-  const logoEl = document.querySelector("[data-logo]");
-  if (logoEl && brand.logo) {
-    logoEl.src = brand.logo;
-    logoEl.alt = `${name} logo`;
-    logoEl.style.display = "";
+  // Filter by sku_allowlist and/or sku_prefixes (OR logic)
+  const allow = new Set((client.sku_allowlist || []).map(s => s.trim()));
+  const prefixes = client.sku_prefixes || [];
+  if (allow.size || prefixes.length) {
+    products = products.filter(p => allow.has(p.sku) || prefixes.some(pre => p.sku.startsWith(pre)));
   }
 
-  // Hero / background image
-  const heroEl = document.querySelector("[data-hero]");
-  if (heroEl && brand.hero) {
-    heroEl.style.backgroundImage = `url(${brand.hero})`;
-    heroEl.style.backgroundSize = "cover";
-    heroEl.style.backgroundPosition = "center";
-    heroEl.style.opacity = "0.12";
+  // Apply branding
+  const titleEl = document.querySelector('[data-brand-title]');
+  const logoEl  = document.querySelector('[data-brand-logo]');
+  if (titleEl) titleEl.textContent = client.name || 'Storefront';
+  if (logoEl) {
+    if (client.brand?.logo) { logoEl.src = client.brand.logo; logoEl.hidden = false; }
+    else { logoEl.hidden = true; }
+  }
+  if (client.brand?.accent) {
+    document.documentElement.style.setProperty('--accent', client.brand.accent);
   }
 
-  // Accent color (for CSS variable)
-  if (brand.accent) {
-    document.documentElement.style.setProperty("--accent", brand.accent);
+  renderGrid(products);
+}
+
+function el(tag, attrs = {}, ...children) {
+  const n = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (k === 'class') n.className = v;
+    else if (k === 'src') n.src = v;
+    else if (k === 'text') n.textContent = v;
+    else if (k.startsWith('on') && typeof v === 'function') n.addEventListener(k.slice(2), v);
+    else n.setAttribute(k, v);
   }
+  for (const c of children) n.append(c);
+  return n;
 }
 
-function filterProducts(all, client) {
-  const allow = new Set((client?.sku_allowlist || []).map(s => s.trim()));
-  const prefixes = (client?.sku_prefixes || []).map(s => s.trim());
+function renderGrid(products) {
+  const grid = document.querySelector('#grid');
+  grid.innerHTML = '';
 
-  if (allow.size === 0 && prefixes.length === 0) return all;
+  const fallback = 'assets/media/placeholder.svg'; // change if needed
 
-  return all.filter(p => {
-    const sku = (p.sku || "").trim();
-    if (allow.has(sku)) return true;
-    return prefixes.some(pre => sku.startsWith(pre));
-  });
-}
+  for (const p of products) {
+    const img = el('img', { class: 'card-img', src: p.image || fallback, alt: p.name });
+    const name = el('div', { class: 'card-title', text: p.name });
+    const price = el('div', { class: 'card-price', text: `$${Number(p.price).toFixed(2)}` });
 
-function fmtMoney(n, currency = "USD") {
-  return new Intl.NumberFormat("en-US", {
-    style: "currency",
-    currency
-  }).format(Number(n) || 0);
-}
+    const variants = (Array.isArray(p.variants) && p.variants.length)
+      ? el('div', { class: 'card-variants' },
+          ...p.variants.slice(0, 8).map(v => el('span', { class: 'chip', text: v })))
+      : el('div');
 
-function renderProducts(list) {
-  const grid = document.querySelector("#products");
-  if (!grid) return;
-  grid.innerHTML = "";
+    const buy = el('a', {
+      class: 'card-buy',
+      href: p.link || '#',
+      target: '_blank',
+      rel: 'noopener',
+      text: 'Buy'
+    });
 
-  if (!list || list.length === 0) {
-    grid.innerHTML = `<div class="empty">No products available.</div>`;
-    return;
-  }
-
-  for (const p of list) {
-    const card = document.createElement("div");
-    card.className = "card";
-
-    const img = document.createElement("img");
-    img.className = "thumb";
-    img.alt = p.name || p.sku || "Product";
-    img.src = `assets/media/${p.sku}.jpg`; // optional per-product images
-    img.onerror = () => (img.style.display = "none");
-
-    const name = document.createElement("div");
-    name.className = "title";
-    name.textContent = p.name || p.sku;
-
-    const price = document.createElement("div");
-    price.className = "price";
-    price.textContent = fmtMoney(p.price, p.currency);
-
-    const buy = document.createElement("a");
-    buy.className = "btn";
-    buy.href = p.link || "#";
-    buy.textContent = "Buy";
-    buy.target = "_blank";
-    buy.rel = "noopener noreferrer";
-
-    card.append(img, name, price, buy);
-    grid.appendChild(card);
+    const card = el('div', { class: 'card' }, img, name, price, variants, buy);
+    grid.append(card);
   }
 }
 
-async function main() {
-  const client = await loadJSON("data/client.json").catch(() => ({}));
-  applyBranding(client);
-
-  const all = await loadJSON("data/products.json").catch(() => []);
-  const visible = filterProducts(all, client);
-  renderProducts(visible);
-}
-
-main().catch(e => {
-  console.error(e);
-  const grid = document.querySelector("#products");
-  if (grid) grid.innerHTML = `<div class="error">Load error — see console</div>`;
-});
+loadAll().catch(console.error);
