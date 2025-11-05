@@ -1,119 +1,137 @@
-// Minimal, defensive storefront loader.
-// Loads client config + products; renders cards or a visible error.
+// app.js — minimal, stable storefront renderer
+(async function () {
+  const CONFIG_URL = "data/client.json";
+  const PRODUCTS_URL = "data/products.json";
 
-const els = {
-  logo:    document.getElementById('brandLogo'),
-  title:   document.getElementById('siteTitle'),
-  hero:    document.getElementById('hero'),
-  flash:   document.getElementById('flash'),
-  grid:    document.getElementById('grid'),
-  year:    document.getElementById('year'),
-  brandNm: document.getElementById('brandName'),
-};
-els.year.textContent = new Date().getFullYear();
+  // ----- helpers
+  const $ = (sel, root = document) => root.querySelector(sel);
+  const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
+  const fmtMoney = (n, curr = "USD") =>
+    new Intl.NumberFormat("en-US", { style: "currency", currency: curr }).format(n);
 
-// ---- utilities
-const showError = (msg) => {
-  els.flash.hidden = false;
-  els.flash.textContent = msg;
-  console.error('[storefront]', msg);
-};
-const $ = (tag, attrs = {}, ...kids) => {
-  const el = document.createElement(tag);
-  for (const [k,v] of Object.entries(attrs)) {
-    if (k === 'class') el.className = v;
-    else if (k === 'style') el.style.cssText = v;
-    else if (k === 'href') el.setAttribute('href', v);
-    else if (k === 'target') el.setAttribute('target', v);
-    else el[k] = v;
-  }
-  for (const kid of kids) {
-    if (kid == null) continue;
-    el.appendChild(typeof kid === 'string' ? document.createTextNode(kid) : kid);
-  }
-  return el;
-};
-
-// ---- load JSON helpers (with friendlier errors)
-async function loadJson(path, name){
-  try{
-    const res = await fetch(path, { cache: 'no-store' });
-    if (!res.ok) throw new Error(`${name} fetch failed (${res.status})`);
-    return await res.json();
-  }catch(e){
-    showError(`${name} error: ${e.message}`);
-    throw e;
-  }
-}
-
-// ---- main
-(async function start(){
-  // 1) Load client + products
-  const client = await loadJson('./data/client.json', 'client.json');
-  const products = await loadJson('./data/products.json', 'products.json');
-
-  // 2) Apply brand
-  const brandName = client?.name || 'Storefront';
-  els.title.textContent = brandName;
-  els.brandNm.textContent = brandName;
-
-  // Logo (optional)
-  if (client?.brand?.logo) {
-    els.logo.src = client.brand.logo;
-    els.logo.alt = `${brandName} logo`;
-  } else {
-    els.logo.style.display = 'none';
+  async function loadJSON(url) {
+    const res = await fetch(url, { cache: "no-store" });
+    if (!res.ok) throw new Error(`Failed to load ${url}: ${res.status}`);
+    return res.json();
   }
 
-  // Hero (optional)
-  if (client?.brand?.hero) {
-    els.hero.style.backgroundImage = `url("${client.brand.hero}")`;
+  function filterProducts(all, cfg) {
+    const allow = new Set((cfg.sku_allowlist || []).map(s => s.trim()).filter(Boolean));
+    const prefixes = (cfg.sku_prefixes || []).map(p => p.trim()).filter(Boolean);
+
+    if (allow.size === 0 && prefixes.length === 0) return all;
+
+    return all.filter(p => {
+      const sku = (p.sku || "").trim();
+      const inAllow = allow.size > 0 && allow.has(sku);
+      const hasPrefix = prefixes.length > 0 && prefixes.some(pref => sku.startsWith(pref));
+      return inAllow || hasPrefix;
+    });
   }
 
-  // Accent (optional)
-  if (client?.brand?.accent) {
-    document.documentElement.style.setProperty('--accent', client.brand.accent);
-  }
+  function applyBranding(cfg) {
+    // Name
+    const nameNode = $("#site-title");
+    if (nameNode) nameNode.textContent = cfg.name || "Storefront";
 
-  // 3) Filter products per allowlist/prefix rules
-  const allow = new Set(client.sku_allowlist || []);
-  const prefixes = client.sku_prefixes || [];
-  const keep = (sku) => {
-    if (!sku || typeof sku !== 'string') return false;
-    if (allow.size && allow.has(sku)) return true;
-    if (prefixes.length && prefixes.some(p => sku.startsWith(p))) return true;
-    return allow.size === 0 && prefixes.length === 0; // if neither provided, keep all
-  };
+    // Logo
+    const logoImg = $("#brand-logo");
+    if (logoImg && cfg.brand?.logo) {
+      logoImg.src = cfg.brand.logo;
+      logoImg.alt = `${cfg.name || "Brand"} logo`;
+    }
 
-  const filtered = products.filter(p => keep(p.sku));
+    // Accent color
+    if (cfg.brand?.accent) {
+      document.documentElement.style.setProperty("--accent", cfg.brand.accent);
+    }
 
-  if (!filtered.length) {
-    showError('No products matched your client filters. Check client.json sku list or prefixes.');
-  }
-
-  // 4) Render cards (tolerant of missing image/link)
-  els.grid.replaceChildren(
-    ...filtered.map(p => {
-      const img = $('.card-media', {},
-        'image'
+    // Hero (as subtle page bg)
+    if (cfg.brand?.hero) {
+      document.body.style.setProperty(
+        "--hero-url",
+        `url("${cfg.brand.hero}")`
       );
-      if (p.image) {
-        img.style.background = `#0b0f14 url("${p.image}") center/cover no-repeat`;
-        img.textContent = '';
-      }
+      document.body.classList.add("has-hero");
+    }
+  }
 
-      const body = $('.card-body', {},
-        $('.card-title', {}, p.name || p.sku || 'Item'),
-        $('.card-price', {}, p.price != null ? `$${Number(p.price).toFixed(2)}` : '')
-      );
+  function guessImage(cfg, product) {
+    // 1) If products.json has an explicit image/url field, use it.
+    if (product.image) return product.image;
+    if (product.images && product.images.length) return product.images[0];
 
-      const foot = $('.card-foot', {},
-        (p.link
-          ? $('a', { class: 'card-buy', href: p.link, target: '_blank' }, 'Buy')
-          : $('div', { class: 'card-buy', style: 'opacity:.5;pointer-events:none' }, 'Link missing'))
-      );
+    // 2) Fallback to a predictable assets path by SKU.
+    //    Put files at assets/products/<slug>/<SKU>.jpg or .png
+    const base = `assets/products/${cfg.slug || "default"}/${product.sku || ""}`;
+    return `${base}.jpg`;
+  }
 
-      return $('.card', {}, img, body, foot);
-    })
-  );
+  function renderProducts(list, cfg, currency = "USD") {
+    const grid = $("#grid");
+    grid.innerHTML = ""; // clear
+
+    for (const p of list) {
+      const card = document.createElement("article");
+      card.className = "card";
+
+      // media
+      const media = document.createElement("div");
+      media.className = "card-media";
+      const img = document.createElement("img");
+      img.loading = "lazy";
+      img.alt = p.name || "";
+      img.src = guessImage(cfg, p);
+      img.onerror = () => { img.src = "assets/placeholder.svg"; };
+      media.appendChild(img);
+
+      // body
+      const body = document.createElement("div");
+      body.className = "card-body";
+
+      const title = document.createElement("h3");
+      title.className = "card-title";
+      title.textContent = p.name || p.sku || "Product";
+
+      const price = document.createElement("div");
+      price.className = "card-price";
+      // price may be number or string in products.json; coerce if needed
+      const n = typeof p.price === "number" ? p.price : Number(p.price);
+      price.textContent = isFinite(n) ? fmtMoney(n, currency) : "";
+
+      const buy = document.createElement("a");
+      buy.className = "btn-buy";
+      buy.textContent = "Buy";
+      buy.href = p.link || "#";
+      buy.target = "_blank";
+      buy.rel = "noopener noreferrer";
+
+      body.appendChild(title);
+      body.appendChild(price);
+      body.appendChild(buy);
+
+      card.appendChild(media);
+      card.appendChild(body);
+      grid.appendChild(card);
+    }
+  }
+
+  // ----- bootstrap
+  try {
+    const [cfg, allProducts] = await Promise.all([
+      loadJSON(CONFIG_URL),
+      loadJSON(PRODUCTS_URL),
+    ]);
+
+    applyBranding(cfg);
+    const filtered = filterProducts(allProducts, cfg);
+
+    // products.json rows usually include a currency field (we also allow fallback)
+    const currency = filtered.find(p => p.currency)?.currency || "USD";
+    renderProducts(filtered, cfg, currency);
+  } catch (err) {
+    console.error(err);
+    const grid = $("#grid");
+    if (grid) grid.innerHTML = `<div class="error">Failed to load storefront: ${err.message}</div>`;
+  }
 })();
