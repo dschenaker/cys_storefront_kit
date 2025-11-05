@@ -1,10 +1,11 @@
-/* --- storefront cards (image + variants) --- */
-:root { --accent: #0f172a; }
+:root { --accent:#0f172a; }
 
-.card { background:#0b0f14; border:1px solid #111; border-radius:14px; padding:14px; display:flex; flex-direction:column; gap:10px; }
-.card-img { width:100%; aspect-ratio: 4/3; object-fit:cover; border-radius:10px; background:#111; }
-.card-title { font-weight:600; }
-.card-price { color:#09c372; font-weight:700; }
-.card-variants { display:flex; flex-wrap:wrap; gap:6px; }
-.chip { font-size:.75rem; padding:4px 8px; border-radius:999px; background:#111; border:1px solid #222; }
-.card-buy { display:block; text-align:center; padding:10px 12px; border-radius:10px; background:var(--accent); color:#fff; text-decoration:none; }
+/* card visuals used by app.js */
+.card{background:#0b0f14;border:1px solid #111;border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:10px}
+.card-img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:10px;background:#111}
+.card-title{font-weight:700}
+.card-price{color:#09c372;font-weight:800}
+.card-variants{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font-size:.75rem;padding:4px 8px;border-radius:999px;background:#111;border:1px solid #222}
+.card-buy{display:block;text-align:center;padding:10px 12px;border-radius:10px;background:var(--accent);color:#fff;text-decoration:none}
+.card-buy:hover{filter:brightness(1.1)}

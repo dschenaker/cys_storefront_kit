@@ -1,28 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CYS Storefront</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title data-brand-title>CYS Storefront</title>
+
+  <link rel="stylesheet" href="styles.css?v=2" />
+  <style>
+    /* minimal page shell so the grid shows immediately */
+    :root { color-scheme: dark; --bg:#0a0f14; --fg:#e8eef6; --muted:#9aa8b4; }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial}
+    header{display:flex;gap:14px;align-items:center;padding:18px 18px 6px}
+    header img{height:36px;object-fit:contain}
+    h1{margin:0;font-size:28px;font-weight:800}
+    main{padding:10px 16px 60px}
+    footer{padding:24px 16px;color:var(--muted);font-size:14px;border-top:1px solid #111}
+    /* grid container that app.js will fill */
+    #grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+  </style>
 </head>
 <body>
-  <header class="navbar">
-    <img data-logo style="display:none; height:32px; vertical-align:middle;" />
-    <h1 data-brand class="brand">CYS Storefront</h1>
+  <header>
+    <img data-brand-logo src="" alt="Brand logo" hidden />
+    <h1 data-brand-title>CYS Storefront</h1>
   </header>
 
-  <section data-hero class="hero"></section>
+  <main>
+    <div id="grid" aria-live="polite"></div>
+  </main>
 
-  <main id="products" class="grid"></main>
-
-  <footer class="footer">
-    <p>&copy; <span id="year"></span> CYS Storefront — Powered by Notion & Stripe</p>
+  <footer>
+    © <span id="year"></span> <span data-brand-title>CYS Storefront</span> — Powered by Notion & Stripe
   </footer>
 
   <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
+    // tiny helper to keep the footer year fresh
+    document.getElementById('year').textContent = new Date().getFullYear();
   </script>
-  <script src="app.js"></script>
+  <script src="app.js?v=2" defer></script>
 </body>
 </html>
