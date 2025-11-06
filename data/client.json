@@ -1,15 +1,13 @@
 {
   "name": "CYS Storefront",
   "slug": "cys",
-  "admin_pin": "0000",
+
   "brand": {
-    "logo": "assets/media/cys-logo.jpg",
-    "hero": "assets/media/cys-hero.jpg",
-    "accent": "#0f172a",
-    "text": "#e6eef7",
-    "bg1": "#0b0c12",
-    "bg2": "#161820"
+    "logo": "assets/media/CYS_FC-01.jpg",
+    "hero": "assets/media/CYS_FC-01.jpg",
+    "accent": "#0f172a"
   },
+
   "sku_allowlist": [
     "CYS-Staff-Polo",
     "CYS-Long-Sleeve-Logo",
@@ -30,5 +28,6 @@
     "CYS Tent 3x6m (Includes Flags and Tablecloth) - 40mm hexagon frame",
     "CYS Tent 3x6m (Includes Flags and Tablecloth) - 50mm hexagon frame"
   ],
+
   "sku_prefixes": ["CYS-"]
 }

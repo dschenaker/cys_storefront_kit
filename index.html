@@ -1,116 +1,67 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title id="site-title">Storefront</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>CYS Storefront</title>
   <link rel="icon" href="favicon.ico">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    :root{
+      --accent:#0f172a; --bg:#0b1220; --card:#141b2b; --card2:#0f1625;
+      --text:#e6eef7; --muted:#8ca0b3; --good:#2ecc71;
+    }
+    body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Inter,Segoe UI,Roboto,Arial}
+    .wrap{max-width:1200px;margin:0 auto;padding:16px}
+    header.site-header{border-bottom:1px solid #1d263b;background:linear-gradient(180deg,rgba(15,23,42,.85),rgba(15,23,42,.6));backdrop-filter:blur(6px)}
+    header .top{display:flex;align-items:center;gap:12px;padding:18px 0}
+    header img.logo{height:38px;width:auto;object-fit:contain;border-radius:8px}
+    header h1{margin:0;font-size:28px}
+    header p.sub{margin:2px 0 0 0;color:var(--muted)}
+    .hero{height:10px;background-size:cover;background-position:center;border-radius:12px;opacity:.12}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:22px 0 60px}
+    @media (max-width:980px){.grid{grid-template-columns:repeat(2,1fr)}}
+    @media (max-width:660px){.grid{grid-template-columns:1fr}}
+    .card{background:linear-gradient(180deg,var(--card),var(--card2));border-radius:14px;overflow:hidden;border:1px solid rgba(255,255,255,.05);box-shadow:0 6px 20px rgba(0,0,0,.25)}
+    .card-media{position:relative;height:240px;background:
+      repeating-linear-gradient(135deg,rgba(255,255,255,.04),rgba(255,255,255,.04) 12px,transparent 12px,transparent 24px);
+      display:flex;align-items:center;justify-content:center}
+    .card-media img.main{max-height:220px;max-width:100%;object-fit:contain;display:block;transition:transform .2s ease}
+    .thumbs{position:absolute;left:8px;bottom:8px;display:flex;gap:6px}
+    .thumbs img{width:40px;height:40px;object-fit:cover;border-radius:6px;border:1px solid rgba(255,255,255,.15);opacity:.8;cursor:pointer;background:#0b1220}
+    .thumbs img.active{outline:2px solid color-mix(in oklab, var(--accent) 75%, #4ea1ff);opacity:1}
+    .nav-arrow{position:absolute;top:50%;transform:translateY(-50%);width:34px;height:34px;border-radius:50%;border:1px solid rgba(255,255,255,.2);background:#0b1220;opacity:.8;cursor:pointer;display:flex;align-items:center;justify-content:center}
+    .nav-arrow:hover{opacity:1}
+    .nav-left{left:8px} .nav-right{right:8px}
+    .card-body{padding:14px}
+    .name{font-weight:700;margin:0 0 8px}
+    .price{color:var(--good);font-weight:700;margin:0 0 12px}
+    .buy{width:100%;height:42px;border:0;border-radius:10px;cursor:pointer;background:color-mix(in oklab,var(--accent) 70%,#2d6cdf);color:white;font-weight:700}
+    footer{color:var(--muted);font-size:13px;border-top:1px solid #1d263b;padding:20px 0;margin-top:30px}
+  </style>
 </head>
 <body>
-  <!-- Hero / Branding -->
   <header class="site-header">
-    <div class="brand">
-      <img id="brand-logo" alt="Brand logo" />
-      <div class="brand-titles">
-        <h1 id="brand-name">Storefront</h1>
-        <p id="brand-tag">Official merch · quick checkout via Stripe</p>
+    <div class="wrap">
+      <div class="top">
+        <img class="logo" alt="Brand logo" id="brandLogo" src="">
+        <div>
+          <h1 id="brandName">Storefront</h1>
+          <p class="sub">Official merch · quick checkout via Stripe</p>
+        </div>
       </div>
+      <div class="hero" id="heroStrip"></div>
     </div>
-
-    <nav class="site-nav">
-      <a href="./" class="nav-link">Shop</a>
-      <a href="#" id="admin-link" class="nav-link">Admin</a>
-    </nav>
   </header>
 
-  <!-- Watermark layer -->
-  <div id="watermark" class="watermark"></div>
-
-  <!-- Content -->
-  <main class="site-main">
-    <section class="products" id="products"></section>
+  <main class="wrap">
+    <section class="grid" id="grid"></section>
   </main>
 
-  <footer class="site-footer">
-    <small id="footer-copy">© <span id="year"></span> <span id="footer-name"></span> — Powered by Notion & Stripe</small>
+  <footer>
+    <div class="wrap">© 2025 <span id="brandNameFoot">Storefront</span> — Powered by Notion & Stripe</div>
   </footer>
 
-  <!-- ADMIN PANEL (hidden until unlocked) -->
-  <dialog id="admin-dialog">
-    <form method="dialog" class="admin-card">
-      <header class="admin-head">
-        <h2>Storefront Admin</h2>
-        <button id="admin-close" class="btn ghost" value="close">✕</button>
-      </header>
-
-      <section class="admin-grid">
-        <div class="field">
-          <label>Logo URL</label>
-          <input id="inp-logo" type="url" placeholder="https://…" />
-        </div>
-        <div class="field">
-          <label>Hero URL</label>
-          <input id="inp-hero" type="url" placeholder="https://…" />
-        </div>
-
-        <div class="field">
-          <label>Primary</label>
-          <input id="inp-primary" type="color" />
-        </div>
-        <div class="field">
-          <label>Text</label>
-          <input id="inp-text" type="color" />
-        </div>
-        <div class="field">
-          <label>BG 1</label>
-          <input id="inp-bg1" type="color" />
-        </div>
-        <div class="field">
-          <label>BG 2</label>
-          <input id="inp-bg2" type="color" />
-        </div>
-
-        <div class="field col2">
-          <label>Watermark Opacity</label>
-          <input id="wm-opacity" type="range" min="0" max="1" step="0.01" />
-        </div>
-        <div class="field col2">
-          <label>Watermark Saturation</label>
-          <input id="wm-sat" type="range" min="0" max="2" step="0.01" />
-        </div>
-        <div class="field col2">
-          <label>Watermark Contrast</label>
-          <input id="wm-ctr" type="range" min="0" max="2" step="0.01" />
-        </div>
-      </section>
-
-      <footer class="admin-actions">
-        <button id="admin-save" class="btn primary" value="save">Apply & Save</button>
-        <button id="admin-reset" class="btn" value="reset" type="button">Reset to client.json</button>
-      </footer>
-    </form>
-  </dialog>
-
-  <!-- PIN prompt (simple) -->
-  <dialog id="pin-dialog">
-    <form method="dialog" class="admin-card">
-      <header class="admin-head">
-        <h2>Admin Access</h2>
-      </header>
-      <div class="field">
-        <label>Enter PIN</label>
-        <input id="pin-input" type="password" inputmode="numeric" placeholder="0000" />
-      </div>
-      <footer class="admin-actions">
-        <button id="pin-ok" class="btn primary" value="ok">Unlock</button>
-        <button class="btn" value="cancel">Cancel</button>
-      </footer>
-    </form>
-  </dialog>
-
-  <script src="app.js" type="module"></script>
+  <script type="module" src="app.js"></script>
 </body>
 </html>
