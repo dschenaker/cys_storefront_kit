@@ -5,11 +5,9 @@
     "sku": "CB-Gorilla-Button",
     "price": 30,
     "currency": "usd",
-    "link": "https://buy.stripe.com/aFa14obMqaOqfLu8axfUQ1P",
+    "link": "https://buy.stripe.com/eVqcN68Ae8GigPy2QdfUQ1V",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/e197905b-74bc-40bd-8b68-bb1cae5e019b/Carolina_Blue_Full_Button_-_Gorilla.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=ba08c805cb8c3c0b52b13b2b3d8d3d2ccd49d3fe13c953c6bf0d20a1f080845a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-8010-8a10-f16696727eee",
@@ -17,11 +15,9 @@
     "sku": "Red-Hoodie",
     "price": 40,
     "currency": "usd",
-    "link": "https://buy.stripe.com/aFa8wQaImcWy8j28axfUQ1Q",
+    "link": "https://buy.stripe.com/6oU3cw5o22hU42M0I5fUQ1W",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/0ce6251f-7d9f-4459-bf5e-772056ae7fb0/Red_-_Hoodie.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=c5bd49425e2e823788cfd52a650aebea99244184d6ec3990fac27752fca3b913&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-8014-aeb9-ea331ef79731",
@@ -29,11 +25,9 @@
     "sku": "C-Basketball Jerseys",
     "price": 40,
     "currency": "usd",
-    "link": "https://buy.stripe.com/28E6oIeYCg8K56Q2QdfUQ1R",
+    "link": "https://buy.stripe.com/fZu9AU2bQ4q26aU3UhfUQ1X",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/8afc12a5-cb34-4c6b-bc24-1676cb730aca/PHOTO-2023-12-20-17-14-23.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=7e7e023864d87a3bd83ac50d74c66d62973d27a82f8ee8b8a01c3008e2833f4f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-8019-8313-f5e0024fe2de",
@@ -41,11 +35,9 @@
     "sku": "Mild",
     "price": 30,
     "currency": "usd",
-    "link": "https://buy.stripe.com/00w5kEcQu1dQ42MaiFfUQ1S",
+    "link": "https://buy.stripe.com/dRmaEY7waaOqgPyduRfUQ1Y",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/a2ea5480-2a49-4ef4-87b7-ac127eb60245/Taco_Team_-_Orange_Jersey.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=33b0fceca780b9006c90cf43ae7dc3a784fa6904bdd262043f6edb9af3931075&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-8019-8a81-db4e8afc78fa",
@@ -53,11 +45,9 @@
     "sku": "Hot",
     "price": 30,
     "currency": "usd",
-    "link": "https://buy.stripe.com/9B6bJ26s6aOq56QaiFfUQ1T",
+    "link": "https://buy.stripe.com/7sY6oI6s609M2YIduRfUQ1Z",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/4adec42d-6348-4da1-b62b-d4274073c4dd/Taco_Team_-_Red_Jersey.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=17ae26c4e0084b072f9961ff2dba71fa5c0fc41ce967c171430d6533ab48ad7b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-801d-8695-d519a5105b9b",
@@ -65,11 +55,9 @@
     "sku": "C-Long Sleeves",
     "price": 30,
     "currency": "usd",
-    "link": "https://buy.stripe.com/cNi5kE7wag8K2YIaiFfUQ1U",
+    "link": "https://buy.stripe.com/9B6bJ203I09M9n6gH3fUQ20",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/bf2d7d3e-3fb6-4854-9a79-93b07f006b86/PHOTO-2023-08-30-17-08-18.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=a1f2f6d3e6b3247d28af56a09bf8e63858fe95ddf38fe88b65e3106471339b7a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-8022-8b05-eb8450381d8d",
@@ -77,11 +65,9 @@
     "sku": "Diablo",
     "price": 30,
     "currency": "usd",
-    "link": "https://buy.stripe.com/cNieVe4jY3lY8j2bmJfUQ16",
+    "link": "https://buy.stripe.com/cNi4gA9Ei4q2czi0I5fUQ21",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/c0b3c7b0-3186-40e6-b066-adbc99d95609/Taco_Team_-_Diablo_Jersey.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=0d91b59a50f27ba8d00482dbf334f730e4d6fc1a33460a2312ec621b5b2ccd70&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-803c-84ce-e507ed4fab5c",
@@ -89,11 +75,9 @@
     "sku": "C-T-Shirt",
     "price": 25,
     "currency": "usd",
-    "link": "https://buy.stripe.com/5kQ3cw03Ie0C56QeyVfUQ17",
+    "link": "https://buy.stripe.com/00w5kE8AebSu8j22QdfUQ22",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/64928969-fb9f-43fe-b0db-22808f8d5fae/PHOTO-2023-11-20-08-05-19.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=61c71f6686df9e4501e75a6d93455c4f40b369d9096c5bd91bef5d76a01018f4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-803e-8d7d-ce6cf00b01be",
@@ -101,11 +85,9 @@
     "sku": "Fire Red",
     "price": 30,
     "currency": "usd",
-    "link": "https://buy.stripe.com/eVq9AU2bQ6ya1UE8axfUQ18",
+    "link": "https://buy.stripe.com/9B600k9Ei9KmaraeyVfUQ23",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/670cc98e-666a-488b-92bf-9110b53fea3d/Taco_Team_-_Fire_Jersey.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=356995b28c7bf833115149cf9e0a40f4132fc04f27ca17ddab6f9617b94edfea&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-805c-865d-d9ddf4657f2f",
@@ -113,11 +95,9 @@
     "sku": "C-Heavy Duty Hoodie",
     "price": 50,
     "currency": "usd",
-    "link": "https://buy.stripe.com/3cI3cw4jY5u66aU9eBfUQ19",
+    "link": "https://buy.stripe.com/5kQ6oI8Ae6ya42McqNfUQ24",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/7a30a75e-2bbf-4db1-bf4e-d7da78e61995/d6cb7ac1-3e26-4088-8abe-3cbc567f2f6c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=faa2a7c36c0fd738cce2be0c994ffb29961b0fb615de548843be3aa6b049c5b9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-8064-aeec-ff87cb5e1a41",
@@ -125,11 +105,9 @@
     "sku": "Pin Pushers",
     "price": 30,
     "currency": "usd",
-    "link": "https://buy.stripe.com/eVq4gA8Ae1dQ56Q4YlfUQ1a",
+    "link": "https://buy.stripe.com/28E9AU3fU3lY7eYaiFfUQ25",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/629c10a7-6989-44a1-9103-7d92c05db974/PHOTO-2025-09-26-10-07-03.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=f6f0b11351a3770328fb1043cae79cac4941b8d03440c18f05308a03db392591&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-8066-bc15-e91d668c7d96",
@@ -137,11 +115,9 @@
     "sku": "CB-Skull-Baseball",
     "price": 30,
     "currency": "usd",
-    "link": "https://buy.stripe.com/aFa9AU03I9Km7eY4YlfUQ1b",
+    "link": "https://buy.stripe.com/28EbJ22bQ4q20QAfCZfUQ26",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/95ffd80a-7387-4078-95d5-6e2451079dd9/Carolina_Blue_Full_Button_-_Skull.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=46a97961dbe48e48dc2d3882de0eb56bce9581e6af6cddd277e4878809fd3e44&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-806a-a94f-fd58fc3d2f80",
@@ -149,11 +125,9 @@
     "sku": "Del Scorcho",
     "price": 30,
     "currency": "usd",
-    "link": "https://buy.stripe.com/9B65kE03Ie0CfLuduRfUQ1c",
+    "link": "https://buy.stripe.com/6oU14oaImg8KgPycqNfUQ27",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/2447a5bf-fd72-4b1a-b6dd-12c98c158701/PHOTO-2025-09-26-09-54-29.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=94525c8945f726028dd807ce6ec5c4b7f0ae74fb59b60268ccd6602959e11a6d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-806c-a93f-cc3d5a063760",
@@ -161,11 +135,9 @@
     "sku": "C-Baclava Facemask",
     "price": 20,
     "currency": "usd",
-    "link": "https://buy.stripe.com/28EaEYg2G6ya2YIgH3fUQ1d",
+    "link": "https://buy.stripe.com/cNi8wQaIm3lY42M1M9fUQ28",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/04741299-ff39-42f1-996a-e3e8100c4db1/109bfa9a-6680-409a-8ded-c78f314ef4c6.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=f5da9dab0c227799605aa775fee3bcafea0e97ae3f86c206a6ef24878f5c681d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-806d-a0d9-fe54df8e7ca7",
@@ -173,11 +145,9 @@
     "sku": "C-Blankets",
     "price": 25,
     "currency": "usd",
-    "link": "https://buy.stripe.com/14AaEY5o22hU7eY8axfUQ1e",
+    "link": "https://buy.stripe.com/7sY5kE6s6g8Kbve0I5fUQ29",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/1f2b007a-a738-4b18-a127-d60c32072dd8/ac7b62cc-a176-4314-8aa2-000a2a208113.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=11e5dacd56a9c2e6dac5963c3d03c37721ce5050da8da156535622f2d047cb3f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-806f-8ee9-e9ed02f6b10e",
@@ -185,11 +155,9 @@
     "sku": "CB-Baclava-Polo",
     "price": 30,
     "currency": "usd",
-    "link": "https://buy.stripe.com/fZu7sMdUy3lYfLuduRfUQ1f",
+    "link": "https://buy.stripe.com/5kQ7sM2bQbSu6aU9eBfUQ2a",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/81591071-0c02-4b7d-a81b-6e147e958853/Carolina_Blue_Polo.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=ef77a25b6b6e98712d12770bcd87412de249be9d05824fa90d11183ad3835549&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-8071-a348-d62d81972dea",
@@ -197,11 +165,9 @@
     "sku": "Red-Letterman",
     "price": 75,
     "currency": "usd",
-    "link": "https://buy.stripe.com/dRm14o3fUf4G0QA76tfUQ1g",
+    "link": "https://buy.stripe.com/8x2bJ2cQu4q242MeyVfUQ2b",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/89991023-5311-4ac1-947f-4d2615f50ce3/Red_-_Zipper_Jacket.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=9561888e1e974d33ef4cd25d82ca52f800a3f88b18b56de6f4fc2e717e2c6f21&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-8075-a028-ead4ac7316bf",
@@ -209,11 +175,9 @@
     "sku": "CB-Baclava-Baseball",
     "price": 30,
     "currency": "usd",
-    "link": "https://buy.stripe.com/8x2aEY03I6yabve1M9fUQ1h",
+    "link": "https://buy.stripe.com/3cIeVeaIm3lYczibmJfUQ2c",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/98d0950e-b82c-4bfa-954a-b5a768115994/Carolina_Blue_Full_Button_-_Baclava.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=0f1caff63d109a89a87de8353d48fe93266824b080dacd68de43c3ef3de626ed&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-8078-a27b-f17c22917950",
@@ -221,11 +185,9 @@
     "sku": "C-Letterman",
     "price": 75,
     "currency": "usd",
-    "link": "https://buy.stripe.com/cNidRabMq3lYbve2QdfUQ1i",
+    "link": "https://buy.stripe.com/8x2fZi4jYcWydDm1M9fUQ2d",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/858931df-a871-44c5-8b84-41da0cfdd9e8/PHOTO-2023-11-13-18-35-41.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=2d2420d10d4ec844480ee169a26930ba2fb3f352fd71b2265bceb142253b44c2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-807b-a4d7-d1132e58fc4f",
@@ -233,11 +195,9 @@
     "sku": "Red-ZipUp",
     "price": 35,
     "currency": "usd",
-    "link": "https://buy.stripe.com/9B6cN6dUy8Gi7eYduRfUQ1j",
+    "link": "https://buy.stripe.com/fZueVe03Ie0C1UE76tfUQ2e",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/50d549de-8f8f-48ab-b7bf-90ead41d0179/Red_-_Full_Jacket.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=e8012590cac1b936bc6a2ccf29c1ac975fc6e64ebf50bac9a20e3505cbcd5c3b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-807e-999a-d6728620a51c",
@@ -245,11 +205,9 @@
     "sku": "CB-ZipUp",
     "price": 35,
     "currency": "usd",
-    "link": "https://buy.stripe.com/5kQ8wQ4jYg8K2YI9eBfUQ1k",
+    "link": "https://buy.stripe.com/bJefZicQucWyara9eBfUQ2f",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/be926d3e-73d1-4134-9a99-3528fb288f78/Carolina_Blue_-_Zipper_Jacket.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=da0bc93dab391d94f68696fcabe418cc7fa8901b1bf5acae16f5822fbc3dde37&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-808c-8a89-e1ec10eed512",
@@ -257,11 +215,9 @@
     "sku": "CB-Gorilla",
     "price": 30,
     "currency": "usd",
-    "link": "https://buy.stripe.com/bJe9AUbMq4q256QcqNfUQ1l",
+    "link": "https://buy.stripe.com/5kQ7sM03I3lYeHqgH3fUQ2g",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/2c9fc272-83b1-4d66-9200-f69c9a64ac46/Carolina_Blue_Polo_-_Gorilla.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=44f64b9306572efeb6a6138baca831a1eef5a3c54aa8ac4e5291a6e2734378fc&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-808d-9753-e1eb7a3e0f30",
@@ -269,11 +225,9 @@
     "sku": "C-Flag Football / Soccer Set",
     "price": 40,
     "currency": "usd",
-    "link": "https://buy.stripe.com/00waEYbMq1dQ7eYgH3fUQ1m",
+    "link": "https://buy.stripe.com/00w7sMdUyaOqczicqNfUQ2h",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/dfef68d1-8a0a-4775-9a26-314bb9a03e54/f0188e11-c248-4310-8b7f-e17dce06a562.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=c8d64a45103acf0a396188d09ebe483c518f07d690b4647a9c798bfec87247fe&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-80ab-8c55-f272851227f3",
@@ -281,11 +235,9 @@
     "sku": "C-ZipUp",
     "price": 35,
     "currency": "usd",
-    "link": "https://buy.stripe.com/6oU5kE17M1dQ7eY8axfUQ1n",
+    "link": "https://buy.stripe.com/3cIbJ2dUy09M42MfCZfUQ2i",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/6d862298-f831-4a17-a3fd-75c79c0c7fd6/5a0a6ce8-a497-4762-89f6-e23b1be672ae.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=38d50fa621a967b87846b05f6ceb2eaa3aa0daa6394447cac78f3ecc973c88cd&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-80be-89c2-f6dfc437598c",
@@ -293,11 +245,9 @@
     "sku": "CB-Skull-Polo",
     "price": 30,
     "currency": "usd",
-    "link": "https://buy.stripe.com/00wdRa7waf4G7eYeyVfUQ1o",
+    "link": "https://buy.stripe.com/28E5kE5o24q27eY9eBfUQ2j",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/1d9b315d-30fe-470d-86c7-4b53fc8b778c/Carolina_Blue_Polo_-_Skull.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=8d4173caa490c60c428342bde4bd551965b90b79d7353ab648473f12323f0a88&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-80c0-a488-c51562dcaf5a",
@@ -305,11 +255,9 @@
     "sku": "C-Hoodie",
     "price": 35,
     "currency": "usd",
-    "link": "https://buy.stripe.com/9B65kE8Ae09MbveaiFfUQ1p",
+    "link": "https://buy.stripe.com/4gM14o6s68GigPy8axfUQ2k",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/19f1185a-7c5f-4d02-8f81-120ac9ae0d36/Company_Hoodie.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=cc62d901ef34f5a4b76dd66b6a9cf9b27ba92960ff4310db6396ece52364fab7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-80c6-81ce-c8878637983c",
@@ -317,11 +265,9 @@
     "sku": "C-Polo",
     "price": 30,
     "currency": "usd",
-    "link": "https://buy.stripe.com/cNi3cweYC6ya8j22QdfUQ1q",
+    "link": "https://buy.stripe.com/8x2cN68Aeg8K7eYduRfUQ2l",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/b32b8203-3974-43b8-85a1-366c0aa89786/PHOTO-2023-12-12-10-10-04.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=737323332be95799a159d8ebc63ea981e6eae8888c330847d468f8904b439793&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-80c6-b666-e1609a243258",
@@ -329,11 +275,9 @@
     "sku": "C-Soccer Jerseys",
     "price": 40,
     "currency": "usd",
-    "link": "https://buy.stripe.com/8x214o03I09M9n6eyVfUQ1r",
+    "link": "https://buy.stripe.com/bJe28sg2G4q2czi3UhfUQ2m",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/7a193de7-87a7-45d5-829f-2ecb001494ab/534.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=18da2c9182ae67bffe9f2e73fb4166ef1a945f78a0be921e651c8c3f54611b4e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-80ca-a0d2-fe1d37f8e6ef",
@@ -341,11 +285,9 @@
     "sku": "C-Baseball/Softball",
     "price": 20,
     "currency": "usd",
-    "link": "https://buy.stripe.com/5kQaEYcQu6ya8j2duRfUQ1s",
+    "link": "https://buy.stripe.com/14A8wQg2G7Ce7eY62pfUQ2n",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/1bbb0641-e9ef-4189-bf25-01c43be474e5/Samurai_Softball.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=36ffaccc8d6111ab48541089500f2cdb43a110896d7b42a3e000f6fb98e89dc4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-80ca-bd5f-d6f6853ae8af",
@@ -353,11 +295,9 @@
     "sku": "Verde",
     "price": 30,
     "currency": "usd",
-    "link": "https://buy.stripe.com/7sYaEYeYC2hU56Q2QdfUQ1t",
+    "link": "https://buy.stripe.com/5kQ7sM4jY4q21UEfCZfUQ2o",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/404ff1e8-f3e6-4f71-8301-fdfec2fc71e5/Taco_Team_-_Green_Jersey.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=e138663f667052d7d3db25e63e1c4f7145af9b6e324e265b572159e82c5e6497&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-80e0-ae8f-d350b23da117",
@@ -365,11 +305,9 @@
     "sku": "C-Softball Set",
     "price": 40,
     "currency": "usd",
-    "link": "https://buy.stripe.com/3cI5kE2bQ6ya0QAcqNfUQ1u",
+    "link": "https://buy.stripe.com/28EcN603I09MfLugH3fUQ2p",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/8fff4e8d-9cd3-43d8-a965-7275e80fa93c/e9a19921-32bd-44f6-b733-f5cbab5b512e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=4e5984e7638e85512b1775222ebd898a52717a0e8bbc3ebf79a2c8441fbbf5e8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-80e2-ba5b-fbdfabec5615",
@@ -377,11 +315,9 @@
     "sku": "C-Warm Up Long Sleeves",
     "price": 30,
     "currency": "usd",
-    "link": "https://buy.stripe.com/8x2cN6g2GbSuara0I5fUQ1v",
+    "link": "https://buy.stripe.com/4gM3cwg2G7Ce56QeyVfUQ2q",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/8bc04330-20ec-469a-a753-0c4bdfb0970d/PHOTO-2024-01-02-17-48-46.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=938b9a1c5700b866e99dfdb03ffba3480d37ba7ccbf116d1a036cd4fb8595b01&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-80e4-b8e6-ddfc95476978",
@@ -389,11 +325,9 @@
     "sku": "CB-Hoodie",
     "price": 40,
     "currency": "usd",
-    "link": "https://buy.stripe.com/dRm14o17Mf4G0QA1M9fUQ1w",
+    "link": "https://buy.stripe.com/aFa8wQeYC4q27eYfCZfUQ2r",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/3beeeade-71c1-4204-9455-c4ee972f6903/Carolina_Blue_-_Hoodie.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=e87359967ceeafc6d99efefc70b483f0877bacffbe83d40716187c6e6f1ae15b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-80f2-8140-f018692c91ea",
@@ -401,11 +335,9 @@
     "sku": "Unit Flag",
     "price": 25,
     "currency": "usd",
-    "link": "https://buy.stripe.com/3cIeVe17M1dQ42M8axfUQ1x",
+    "link": "https://buy.stripe.com/8x25kEdUycWy42M4YlfUQ2s",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/a93e0fed-53ef-4bdb-8555-8176e0857573/5th_TC_Flag.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=e97b66d4b0117b61872f7090c9b9a6825a8c4e1d27a6993f41197b322d1444d7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-80f4-beb3-e6771518ed46",
@@ -413,11 +345,9 @@
     "sku": "C-1/4 Zip",
     "price": 30,
     "currency": "usd",
-    "link": "https://buy.stripe.com/7sY7sM7wag8KgPy62pfUQ1y",
+    "link": "https://buy.stripe.com/5kQ5kE8Ae2hU2YIbmJfUQ2t",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/d262f49c-c7b7-4f61-92ad-212ac75a9227/PHOTO-2025-09-26-10-07-03.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=fde2e1d9aabec7dc4c5a275d5d99724c01c6d3c2b0ca3cdedd7bfefbb47cdabb&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-80f9-ac45-cef7151d68b3",
@@ -425,11 +355,9 @@
     "sku": "CB-Letterman",
     "price": 75,
     "currency": "usd",
-    "link": "https://buy.stripe.com/14AbJ24jY3lYbve9eBfUQ1z",
+    "link": "https://buy.stripe.com/aFa9AUg2G7Ce8j2bmJfUQ2u",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/29329d46-3600-4819-be93-597258cf03b5/Carolina_Blue_-_Full_Jacket.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=f2eb9a6eaad5d6f8f92e6d032efeac9fe390b001f21a4e6d5328ffe4c9b21ff4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "284a1cfa-47e8-80fb-988d-d83f0ac2cbfb",
@@ -437,11 +365,9 @@
     "sku": "C-Tent w/ Flags",
     "price": 450,
     "currency": "usd",
-    "link": "https://buy.stripe.com/aFa4gA2bQaOqeHqaiFfUQ1A",
+    "link": "https://buy.stripe.com/6oU28s8Aef4G7eY76tfUQ2v",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/1107435a-87cf-42b6-abc1-a7cb83cf0663/PHOTO-2024-06-25-19-33-44.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=c8ea6fbb9e8b7b7d526f480676aec0f22b4925183527f2f562bd068661eb35cf&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "291a1cfa-47e8-809f-8f4c-f35514cc0d0d",
@@ -449,11 +375,9 @@
     "sku": "DEMO-001",
     "price": 1,
     "currency": "usd",
-    "link": "https://buy.stripe.com/6oUfZibMq09M1UE0I5fUQ1B",
+    "link": "https://buy.stripe.com/9B69AUcQu8Giara4YlfUQ2w",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/00ed1aeb-398c-4d01-92d7-f8bc25c1f553/CYS_Zipper_Jacketn%28male%29.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=7f6123e4b6453caf1191c82aa1a84ec9c1f43b25c1b146c4f2e23ba9fc3774c6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "29ca1cfa-47e8-800c-9d88-c53bafdbb34e",
@@ -461,11 +385,9 @@
     "sku": "CYS-Full Zip-Female",
     "price": 25,
     "currency": "usd",
-    "link": "https://buy.stripe.com/aFa4gA2bQ6ya2YIgH3fUQ1C",
+    "link": "https://buy.stripe.com/cNibJ24jY7CegPyfCZfUQ2x",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/977d3328-8288-45a6-b1b6-1760e4d1e476/CYS_Full_Zip_%28Red_Zipper%29.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=f8fc24d9daa37f469718ddbb5661aac3819634e06af6eb97966aa5b103b309c5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "29ca1cfa-47e8-800c-af53-fe3d70513f6c",
@@ -473,11 +395,9 @@
     "sku": "CYS-Gray-Green",
     "price": 22,
     "currency": "usd",
-    "link": "https://buy.stripe.com/3cI28seYCbSu9n63UhfUQ1D",
+    "link": "https://buy.stripe.com/6oU3cw03I7CearafCZfUQ2y",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/f09c1085-c624-4cf3-b212-cdbf2897eb88/CYS_-_Management_Polo.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=de76a0e4e0f21b8abb5d400eb0de9e99c9d13b4f875b1ecaa5c0105b2090f4a3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "29ca1cfa-47e8-800d-859c-e8056689db57",
@@ -485,11 +405,9 @@
     "sku": "CYS-Sweater",
     "price": 30,
     "currency": "usd",
-    "link": "https://buy.stripe.com/14AcN617M9Km8j20I5fUQ1E",
+    "link": "https://buy.stripe.com/5kQ7sMaIm6ya42MbmJfUQ2z",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/e6a7dfa3-19d9-45a5-8e29-1c73a24dfeff/CYS_Sweater.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=01f66c025980b6db9e8627517f2220ea324829eca57a94ad524fe7e118d0b7a1&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "29ca1cfa-47e8-8038-9738-ed839d55dfdf",
@@ -497,11 +415,9 @@
     "sku": "CYS-Long-Sleeve-Logo",
     "price": 22,
     "currency": "usd",
-    "link": "https://buy.stripe.com/7sY00kdUy8GibvefCZfUQ1F",
+    "link": "https://buy.stripe.com/6oUbJ26s64q26aU8axfUQ2A",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/24a6c832-59e5-43a7-8750-03d33f253c66/CYS_-_Polo_%28Green%29_v3.0_-_Long_Sleeve.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=962e6cbd047178cd6ccf609eac0cbdc5088ec2188a87f2791920b3ed525bfe93&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "29ca1cfa-47e8-803d-ae8f-db2c59cd0323",
@@ -509,11 +425,9 @@
     "sku": "CYS-Staff-Polo",
     "price": 22,
     "currency": "usd",
-    "link": "https://buy.stripe.com/8x26oI03I4q21UE8axfUQ1G",
+    "link": "https://buy.stripe.com/bJe8wQdUy9KmeHqfCZfUQ2B",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/c7a286a9-805a-4342-9273-0f34b3b7b4ea/CYS_-_Polo_Purple.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=70f5280abde7743b066082a653c7ac4597355c000c2a8f229d8c1fe787235adf&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "29ca1cfa-47e8-8045-ae63-c27708787566",
@@ -521,11 +435,9 @@
     "sku": "CYS-Gradient",
     "price": 22,
     "currency": "usd",
-    "link": "https://buy.stripe.com/bJe9AUcQu3lY0QAcqNfUQ1H",
+    "link": "https://buy.stripe.com/9B6bJ217M9Km0QA3UhfUQ2C",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/7bd21d4b-f837-43c6-814d-8db48d104756/CYS_Gradiant_Polo.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=cd6601ec9b1147974e35a6dc8f69c7c26eb104449916535bc9ac70dfdfda0a84&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "29ca1cfa-47e8-805c-bbb3-fe9778e327ae",
@@ -533,11 +445,9 @@
     "sku": "CYS-Tablecloth-6",
     "price": 40,
     "currency": "usd",
-    "link": "https://buy.stripe.com/8x28wQ8AecWyeHqcqNfUQ1I",
+    "link": "https://buy.stripe.com/aFadRabMq8GigPy76tfUQ2D",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/bf83e89c-ccb5-44ec-901f-5b516f61e607/CYS_-_Table_Cloth_%28Forest_Green%29.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=8d5d24b3591c7f7f44b5298958d6f68c0fb4fd30c96520503e4026ab1c2ee2eb&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "29ca1cfa-47e8-8061-ac89-d8f381a68465",
@@ -545,11 +455,9 @@
     "sku": "CYS-Full-Zip-Male",
     "price": 25,
     "currency": "usd",
-    "link": "https://buy.stripe.com/dRm4gA7wa3lY0QA8axfUQ1J",
+    "link": "https://buy.stripe.com/14AfZicQu8Giara2QdfUQ2E",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/8c2ede60-b9b0-4fc4-98c0-c1552dd95a06/CYS_Full_Zip_Jacket_%28Male%29.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=7046086b3efec3ea2cc4377f9a64dc610de2bfbff95541ac872dabf0509c16fe&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "29ca1cfa-47e8-8078-bbcd-c5f3f8c473aa",
@@ -557,11 +465,9 @@
     "sku": "CYS-Tablecloth-8",
     "price": 45,
     "currency": "usd",
-    "link": "https://buy.stripe.com/fZu28s4jYaOq0QAaiFfUQ1K",
+    "link": "https://buy.stripe.com/14A3cw3fU4q28j2bmJfUQ2F",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/bf83e89c-ccb5-44ec-901f-5b516f61e607/CYS_-_Table_Cloth_%28Forest_Green%29.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=8d5d24b3591c7f7f44b5298958d6f68c0fb4fd30c96520503e4026ab1c2ee2eb&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "29ca1cfa-47e8-8079-bc6b-c2a9056eef37",
@@ -569,11 +475,9 @@
     "sku": "CYS-Short-Sleeve-Logo",
     "price": 22,
     "currency": "usd",
-    "link": "https://buy.stripe.com/5kQcN68Ae2hU42MeyVfUQ1L",
+    "link": "https://buy.stripe.com/9B67sM6s62hUeHq1M9fUQ2G",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/eec2d2ac-646f-4988-8d88-ac048cc4050e/CYS_-_Polo_%28Green%29_v3.0_-_Short_Sleeve.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=9e944ee500bb7fba0f456c731092527a34c08c2aea22d82015328b33dc75aad2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "29ca1cfa-47e8-8080-98ad-c94fd5401e8b",
@@ -581,11 +485,9 @@
     "sku": "CYS-Flow-Long-Sleeve",
     "price": 22,
     "currency": "usd",
-    "link": "https://buy.stripe.com/fZu3cwdUy8Gi2YIbmJfUQ1M",
+    "link": "https://buy.stripe.com/7sY9AUg2Ge0Cczi3UhfUQ2H",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/e4bd5873-94e0-4973-8de7-456a997b7c67/CYS_Long_Sleeve_%28Flow%29.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=77240d05cea886fb7443b346b0700835cbcf985bed806f4ccc410b2aad519b75&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "29ca1cfa-47e8-8090-9110-e7dbdd475e9a",
@@ -593,11 +495,9 @@
     "sku": "CYS-Flow-Short-Sleeve",
     "price": 22,
     "currency": "usd",
-    "link": "https://buy.stripe.com/eVqbJ29Ei7Ce1UE76tfUQ1N",
+    "link": "https://buy.stripe.com/4gMbJ2aIm3lY42MfCZfUQ2I",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/21e04d67-e49f-4527-acbd-b7c4f23f01e2/CYS_Short_Sleeve_%28Flow%29.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=17e335a0ae7b45375b08c0f041a39338347c7994e7f78c1f8a8cd53c4acd4e73&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "29ca1cfa-47e8-80f7-ac81-d39505e02c5d",
@@ -605,11 +505,9 @@
     "sku": "CYS-1/4 Zip-Female",
     "price": 25,
     "currency": "usd",
-    "link": "https://buy.stripe.com/8x2eVebMq1dQfLueyVfUQ1O",
+    "link": "https://buy.stripe.com/eVq00kaIm9Kmczi76tfUQ2J",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/e32b4556-e9cd-42a4-bf1d-8822be8d46a2/CYS_14_Zip_%28Female%29.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=b66c29f001b8c2e62b3bcc8b745db0fcbc5e94a223f731a802ce47bdb958ca24&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "2a1a1cfa-47e8-801c-9ccf-e14201ed44bd",
@@ -617,11 +515,9 @@
     "sku": "CYS-Sleeveless",
     "price": 35,
     "currency": "usd",
-    "link": null,
+    "link": "https://buy.stripe.com/14A28s8AebSu2YIaiFfUQ2K",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/9bbdbb6e-6a72-4801-9d8f-2d699d0ba540/PHOTO-2025-11-04-09-58-50.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=d27b7813f43acd17174e452a24d6b2cdba561a898436185b4f06a21a16ac3851&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "2a2a1cfa-47e8-801a-aabd-f5dd10059ee3",
@@ -629,11 +525,9 @@
     "sku": "CYS-Tent-3x3-50mm-Square",
     "price": 750,
     "currency": "usd",
-    "link": null,
+    "link": "https://buy.stripe.com/eVq6oI03Ig8K6aU8axfUQ2L",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/723a41ea-f9cf-4ee9-8075-20e9b7e55bd2/PHOTO-2025-11-05-06-50-59.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=68fa7a6860168c3e77da1a2d217476a7e047c0465c9424f2ebc49ef73acefb5e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "2a2a1cfa-47e8-8097-8737-fa4ffee31635",
@@ -641,11 +535,9 @@
     "sku": "CYS-Tent-3x3-40mm-Square",
     "price": 675,
     "currency": "usd",
-    "link": null,
+    "link": "https://buy.stripe.com/aFabJ24jY4q27eY1M9fUQ2M",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/3e9656d2-3772-4c1d-9339-a0a9a83eb436/PHOTO-2025-11-05-06-50-59.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=434fe5b12296dd9b7568656b9e961b33313575fbd363bdb5f700391b00442c26&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "2a2a1cfa-47e8-80e3-af1d-dd59ed2ea8b9",
@@ -653,11 +545,9 @@
     "sku": "CYS-Tent-3x6-40mm-Square",
     "price": 1030,
     "currency": "usd",
-    "link": null,
+    "link": "https://buy.stripe.com/fZu3cw5o22hU9n6duRfUQ2N",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/cefd572a-60b7-4be2-9c00-e6a0ff32c8ba/PHOTO-2025-11-05-06-51-00_2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=4983da0dba75e75b469a095220290ca4a9cbcdc218ac2c9cdb7216e03bb1ff61&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   },
   {
     "id": "2a2a1cfa-47e8-80ee-94cf-c932ca0f155a",
@@ -665,10 +555,8 @@
     "sku": "CYS-Tent-3x6-50mm-Square",
     "price": 1450,
     "currency": "usd",
-    "link": null,
+    "link": "https://buy.stripe.com/dRm3cw7wacWy1UE9eBfUQ2O",
     "mode": "live",
-    "active": true,
-    "image": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7e60883-8bb9-43fd-b066-d237d98edc05/bcc4cb57-5a6f-40f1-89e1-e5653ad4f239/PHOTO-2025-11-05-06-51-00_2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZTA3HPJX%2F20251106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251106T072717Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIEZ1ZlYGsWSoGU1b5AY%2BUPECZ22o0hCbjUJSbi7yiqpgAiEA9Aw1X7Q37dn2lnS1hY95jzefoLmA2x9oceLTlYSqVbAqiAQIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDHQXHHeh1r%2B1zhed%2FircAyKrH3qfv2X6ab%2BB%2BRwN6D9p47vd4LLHa2xAiNVzcMlHzLOXgRYK%2Blm5WOT8NXA3iCi%2BpJb96X7styfyNM0DQaUGLgtnP27CMpYdG6gm7N%2Fh6VBV7nGDR%2B3WuOG8hinPcCKBF9Fgz3lOAuQMhTrZNq7kFeKJZO6QcTybbtJ2dXKy8hgtbIq%2FQEBU%2Bph0zCpJ7jJhMrxFWWwXBZ%2Fm8B0LJcagnejvKAbxTYrZ6mDyGvEliz9UgxUuVniUYIk036IfvPhALMfR8HomxOM0Fc2c%2BXlD0YSo6LNOpIBYSYEcCp3amdqJQMd2kQ4e78%2BxMkCe1UHceV3C0BP%2F2IWPC5iWk1ag%2F9sEcOgMh42wcqIlCr5ler4A1mZGW416j4R9kCok1sEE5jACTHuS5kCYm2lab1hl9dpuk1wk2feenE0TmU8PR2bwnnGo4xz4jXf3IOzZ7R53y%2Flp%2Fz8mmf93KAJtQGwRd%2Fy3uP7sPJeBf5u3M9K5dH4lIGelDu1x47TaGALCNcvHmAgrV2Xsa1OXCWxCLP0xu3Eb7BoCviVtIrp%2FPGFCdXjKGUW0v7wwLnTZ0XdgqMwt97BNSC92wDbc5Jygr2t%2BmJtu7atekkwziQiFdjaYhZx3c2ofCUr4qImQMMnusMgGOqUBJUhhPk1HBHuNR%2BnFFNxUyWZ4Z88xD%2B03A9%2FteZmSG24EnkdwJPMr%2FXSIOD6qUYNYuzMxMrJDoLjrDxZ6yQiBnWDHXkPzBBEfdF5jLbqJ5d8CS1wNntiJ8%2FW%2BZ8eoK%2BYlcCMoCZ1AvP128RfkDOkx0E403TgLAYO1rOVFGiDPil63coFKDLaunJPQKmx6cRtAK3iHRwT6ewgxPoKqXIQdPgodnG%2Bb&X-Amz-Signature=8b50650fe52376bc93cbf4d2e0de8765b4e131f7fb9d045f96f9890029a916d6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
-    "variants": []
+    "active": true
   }
 ]
