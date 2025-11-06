@@ -3,130 +3,114 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CYS Storefront</title>
+  <title id="site-title">Storefront</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <!-- Hero / Branding -->
   <header class="site-header">
-    <div class="hero">
+    <div class="brand">
       <img id="brand-logo" alt="Brand logo" />
-      <div class="hero-text">
-        <h1 id="site-title">Storefront</h1>
-        <p id="site-subtitle"></p>
+      <div class="brand-titles">
+        <h1 id="brand-name">Storefront</h1>
+        <p id="brand-tag">Official merch · quick checkout via Stripe</p>
       </div>
     </div>
+
+    <nav class="site-nav">
+      <a href="./" class="nav-link">Shop</a>
+      <a href="#" id="admin-link" class="nav-link">Admin</a>
+    </nav>
   </header>
 
-  <main>
-    <div id="grid" class="grid"></div>
+  <!-- Watermark layer -->
+  <div id="watermark" class="watermark"></div>
+
+  <!-- Content -->
+  <main class="site-main">
+    <section class="products" id="products"></section>
   </main>
 
   <footer class="site-footer">
-    © <span id="year"></span> <span id="brand-name">Storefront</span> — Powered by Notion & Stripe
+    <small id="footer-copy">© <span id="year"></span> <span id="footer-name"></span> — Powered by Notion & Stripe</small>
   </footer>
 
-  <script src="app.js" defer></script>
-  <div id="customizer" hidden>
-  <div class="panel">
-    <h3>Customizer</h3>
-    <label>Heading <input id="c-heading"></label>
-    <label>Subheading <input id="c-subheading"></label>
-    <label>Accent <input id="c-accent" type="color"></label>
-    <label>Button <input id="c-btn" type="color"></label>
-    <button id="c-apply">Preview</button>
-    <button id="c-copy">Copy JSON</button>
-  </div>
-</div>
-<script>
-  if (location.search.includes("edit=1")) {
-    const el = document.getElementById("customizer");
-    el.hidden = false;
-    const q = s=>document.querySelector(s);
-    const apply = ()=>{
-      const out = {
-        heading: q("#c-heading").value || undefined,
-        subheading: q("#c-subheading").value || undefined,
-        theme: {
-          accent: q("#c-accent").value || undefined,
-          btn: q("#c-btn").value || undefined
-        }
-      };
-      // apply live
-      if (out.heading) document.getElementById("site-title").textContent = out.heading;
-      if (out.subheading!=null) document.getElementById("site-subtitle").textContent = out.subheading;
-      if (out.theme?.accent) document.documentElement.style.setProperty("--accent", out.theme.accent);
-      if (out.theme?.btn) document.documentElement.style.setProperty("--btn", out.theme.btn);
-      return out;
-    };
-    q("#c-apply").onclick = apply;
-    q("#c-copy").onclick = ()=>{
-      apply();
-      navigator.clipboard.writeText(JSON.stringify(apply(), null, 2));
-      alert("Copied JSON. Paste into data/client.json and commit.");
-    };
-  }
-</script>
-<style>
-  #customizer .panel { position: fixed; right: 12px; bottom: 12px; background:#0b1220; color:#e5f2ff; border:1px solid #22334a; border-radius:12px; padding:12px; width:280px; z-index:9999; display:grid; gap:8px;}
-  #customizer label { display:grid; gap:6px; font-size:.9rem; }
-  #customizer input { padding:6px 8px; border-radius:8px; border:1px solid #22334a; background:#0f172a; color:#e5f2ff;}
-  #customizer button { padding:8px 10px; border-radius:8px; border:0; background:#0ea5e9; color:#fff; cursor:pointer;}
-  #customizer h3 { margin:0 0 4px; font-size:1rem; }
-</style>
+  <!-- ADMIN PANEL (hidden until unlocked) -->
+  <dialog id="admin-dialog">
+    <form method="dialog" class="admin-card">
+      <header class="admin-head">
+        <h2>Storefront Admin</h2>
+        <button id="admin-close" class="btn ghost" value="close">✕</button>
+      </header>
 
-<!-- Customizer Panel -->
-<div id="editor" class="editor hidden" aria-hidden="true">
-  <div class="editor-inner">
-    <div class="editor-head">
-      <h3>Storefront Customizer</h3>
-      <button id="ed-close" class="ed-btn">✕</button>
-    </div>
+      <section class="admin-grid">
+        <div class="field">
+          <label>Logo URL</label>
+          <input id="inp-logo" type="url" placeholder="https://…" />
+        </div>
+        <div class="field">
+          <label>Hero URL</label>
+          <input id="inp-hero" type="url" placeholder="https://…" />
+        </div>
 
-    <div class="ed-grid">
-      <label>Store Name
-        <input id="ed-name" type="text" placeholder="CYS Storefront">
-      </label>
-      <label>Subtitle
-        <input id="ed-sub" type="text" placeholder="Official merch • quick checkout via Stripe">
-      </label>
+        <div class="field">
+          <label>Primary</label>
+          <input id="inp-primary" type="color" />
+        </div>
+        <div class="field">
+          <label>Text</label>
+          <input id="inp-text" type="color" />
+        </div>
+        <div class="field">
+          <label>BG 1</label>
+          <input id="inp-bg1" type="color" />
+        </div>
+        <div class="field">
+          <label>BG 2</label>
+          <input id="inp-bg2" type="color" />
+        </div>
 
-      <label>Logo URL
-        <input id="ed-logo" type="url" placeholder="assets/branding/cys/logo.jpg">
-      </label>
-      <label>Hero URL
-        <input id="ed-hero" type="url" placeholder="assets/branding/cys/hero.jpg">
-      </label>
-      <label>Watermark URL (optional)
-        <input id="ed-watermark" type="url" placeholder="assets/branding/cys/watermark.png">
-      </label>
+        <div class="field col2">
+          <label>Watermark Opacity</label>
+          <input id="wm-opacity" type="range" min="0" max="1" step="0.01" />
+        </div>
+        <div class="field col2">
+          <label>Watermark Saturation</label>
+          <input id="wm-sat" type="range" min="0" max="2" step="0.01" />
+        </div>
+        <div class="field col2">
+          <label>Watermark Contrast</label>
+          <input id="wm-ctr" type="range" min="0" max="2" step="0.01" />
+        </div>
+      </section>
 
-      <label>Accent Color
-        <input id="ed-accent" type="text" placeholder="#0f172a">
-      </label>
-      <label>Button Color
-        <input id="ed-btn" type="text" placeholder="#1992ff">
-      </label>
-      <label>Card Radius (px)
-        <input id="ed-radius" type="number" min="0" step="1" placeholder="16">
-      </label>
-      <label>Grid Columns (1–6)
-        <input id="ed-cols" type="number" min="1" max="6" step="1" placeholder="4">
-      </label>
-    </div>
+      <footer class="admin-actions">
+        <button id="admin-save" class="btn primary" value="save">Apply & Save</button>
+        <button id="admin-reset" class="btn" value="reset" type="button">Reset to client.json</button>
+      </footer>
+    </form>
+  </dialog>
 
-    <div class="editor-actions">
-      <button id="ed-apply" class="ed-primary">Apply</button>
-      <button id="ed-copy">Copy JSON</button>
-      <button id="ed-download">Download JSON</button>
-      <button id="ed-reset">Reset</button>
-    </div>
-    <p class="ed-note">
-      Changes preview instantly. Use <b>Copy JSON</b> or <b>Download JSON</b>, then paste/replace
-      <code>data/client.json</code> and commit.
-    </p>
-  </div>
-</div>
+  <!-- PIN prompt (simple) -->
+  <dialog id="pin-dialog">
+    <form method="dialog" class="admin-card">
+      <header class="admin-head">
+        <h2>Admin Access</h2>
+      </header>
+      <div class="field">
+        <label>Enter PIN</label>
+        <input id="pin-input" type="password" inputmode="numeric" placeholder="0000" />
+      </div>
+      <footer class="admin-actions">
+        <button id="pin-ok" class="btn primary" value="ok">Unlock</button>
+        <button class="btn" value="cancel">Cancel</button>
+      </footer>
+    </form>
+  </dialog>
 
-<script src="scripts/customizer.js"></script>
+  <script src="app.js" type="module"></script>
 </body>
 </html>

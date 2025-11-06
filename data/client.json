@@ -1,23 +1,14 @@
 {
   "name": "CYS Storefront",
   "slug": "cys",
-
+  "admin_pin": "0000",
   "brand": {
-    "logo": "assets/branding/cys/logo.jpg",
-    "hero": "assets/branding/cys/hero.jpg"
-  },
-
-  "heading": "CYS Storefront",
-  "subheading": "Official merch • quick checkout via Stripe",
-
-  "theme": {
+    "logo": "assets/media/cys-logo.jpg",
+    "hero": "assets/media/cys-hero.jpg",
     "accent": "#0f172a",
-    "text": "#e5f2ff",
-    "muted": "#9fb3c8",
-    "card": "#101826",
-    "cardEdge": "#22334a",
-    "btn": "#0ea5e9",
-    "btnText": "#ffffff"
+    "text": "#e6eef7",
+    "bg1": "#0b0c12",
+    "bg2": "#161820"
   },
   "sku_allowlist": [
     "CYS-Staff-Polo",
@@ -28,12 +19,16 @@
     "CYS-Flow-Long-Sleeve",
     "CYS-Flow-Short-Sleeve",
     "CYS-Sweater",
-    "CYS-1/4 Zip-Female",
+    "CYS-1/4-Zip-Female",
     "CYS-Full-Zip-Male",
     "CYS-Full-Zip-Female",
     "CYS-Tablecloth-6",
     "CYS-Tablecloth-8",
-    "CYS-Sleeveless"
+    "CYS-Sleeveless",
+    "CYS Tent 3x3m (Includes Flags and Tablecloth) - 40mm Square frame",
+    "CYS Tent 3x3m (Includes Flags and Tablecloth) - 50mm hexagon frame",
+    "CYS Tent 3x6m (Includes Flags and Tablecloth) - 40mm hexagon frame",
+    "CYS Tent 3x6m (Includes Flags and Tablecloth) - 50mm hexagon frame"
   ],
   "sku_prefixes": ["CYS-"]
 }
