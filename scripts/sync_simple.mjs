@@ -1,235 +1,181 @@
-#!/usr/bin/env node
-import 'dotenv/config';
-import fs from 'fs/promises';
-import path from 'path';
-import Stripe from 'stripe';
-import { Client } from '@notionhq/client';
+import fs from "node:fs/promises";
+import path from "node:path";
+import dotenv from "dotenv";
+import Stripe from "stripe";
+import { Client } from "@notionhq/client";
 
-// ====== ENV ======
-const NOTION_TOKEN = process.env.NOTION_TOKEN;
-const NOTION_DB_ID = process.env.NOTION_DB_ID;
-const MODE         = (process.env.STRIPE_MODE || 'live').toLowerCase(); // 'test' or 'live'
-const CURRENCY     = (process.env.CURRENCY || 'usd').toLowerCase();
-const STRIPE_KEY   = MODE === 'test' ? process.env.STRIPE_API_KEY_TEST : process.env.STRIPE_API_KEY_LIVE;
+dotenv.config();
 
-if (!NOTION_TOKEN || !NOTION_DB_ID || !STRIPE_KEY) {
-  console.error('Missing NOTION_TOKEN, NOTION_DB_ID, or Stripe keys.');
-  process.exit(1);
-}
+const {
+  NOTION_TOKEN,
+  NOTION_DB_ID,
+  STRIPE_API_KEY_TEST,
+  STRIPE_API_KEY_LIVE,
+} = process.env;
 
-const stripe = new Stripe(STRIPE_KEY, { apiVersion: '2024-06-20' });
+const CURRENCY = "usd";
+const STRIPE_MODE = (process.env.STRIPE_MODE || "live").toLowerCase() === "test" ? "test" : "live";
+const STRIPE_KEY  = STRIPE_MODE === "test" ? STRIPE_API_KEY_TEST : STRIPE_API_KEY_LIVE;
+
+if (!NOTION_TOKEN) throw new Error("Missing NOTION_TOKEN");
+if (!NOTION_DB_ID) throw new Error("Missing NOTION_DB_ID");
+if (!STRIPE_KEY)   throw new Error(`Missing ${STRIPE_MODE === "test" ? "STRIPE_API_KEY_TEST" : "STRIPE_API_KEY_LIVE"}`);
+
 const notion = new Client({ auth: NOTION_TOKEN });
+const stripe = new Stripe(STRIPE_KEY, { apiVersion: "2024-06-20" });
 
-// ====== Notion property names (adjust if you renamed columns) ======
+/* Map your Notion property names here */
 const PROPS = {
-  name:   'Product Name',
-  active: 'Active',
-  price:  'Price',
-  sku:    'Product SKU',
-  urlLive:'PaymentURL',
-  urlTest:'Stripe Link (Test)',
-  image:  'Image',       // files
-  var1:   'Variant 1',   // files
-  var2:   'Variant 2'    // files
+  name:  "Product Name",
+  sku:   "Product SKU",
+  price: "Price",
+  active:"Active",
+  urlLive: "PaymentURL",
+  urlTest: "Stripe Link (Test)",
+  image: "Image",            // files (primary)
+  v1:    "Variant 1",        // files
+  v2:    "Variant 2",
+  v3:    "Variant 3",
+  v4:    "Variant 4",
+  v5:    "Variant 5",
+  v6:    "Variant 6",
 };
 
-// ====== helpers ======
-function getPlain(prop) {
+const out = (...a) => console.log("[sync]", ...a);
+
+/* ---------- helpers for Notion properties ---------- */
+function asText(prop) {
   if (!prop) return undefined;
-  if (prop.type === 'title' || prop.type === 'rich_text') {
-    return prop[prop.type].map(t => t.plain_text).join('');
-  }
-  if (prop.type === 'checkbox') return !!prop.checkbox;
-  if (prop.type === 'number')   return prop.number;
-  if (prop.type === 'url')      return prop.url;
-  if (prop.type === 'select')   return prop.select?.name;
-  if (prop.type === 'status')   return prop.status?.name;
+  if (prop.type === "title")     return prop.title?.map(t => t.plain_text).join("") || "";
+  if (prop.type === "rich_text") return prop.rich_text?.map(t => t.plain_text).join("") || "";
+  if (prop.type === "number")    return prop.number;
+  if (prop.type === "checkbox")  return !!prop.checkbox;
+  if (prop.type === "url")       return prop.url || "";
   return undefined;
 }
-
-function notionFiles(prop) {
-  if (!prop || prop.type !== 'files' || !Array.isArray(prop.files)) return [];
-  return prop.files.map(f => f.external?.url || f.file?.url).filter(Boolean);
+function asFiles(prop) {
+  if (!prop || prop.type !== "files" || !Array.isArray(prop.files)) return [];
+  return prop.files.map(f => {
+    if (f.type === "external") return { url: f.external.url, name: f.name || "" };
+    if (f.type === "file")     return { url: f.file.url,     name: f.name || "" };
+    return null;
+  }).filter(Boolean);
 }
 
-async function* readAll(database_id) {
+async function* pages(database_id) {
   let cursor;
   do {
     const resp = await notion.databases.query({
       database_id,
       start_cursor: cursor,
-      page_size: 50,
-      filter: { property: PROPS.active, checkbox: { equals: true } }
+      page_size: 100,
+      filter: { property: PROPS.active, checkbox: { equals: true } },
     });
     for (const r of resp.results) yield r;
     cursor = resp.has_more ? resp.next_cursor : undefined;
   } while (cursor);
 }
 
-async function sleep(ms){ return new Promise(r=>setTimeout(r, ms)); }
-
-function safeSlug(s){
-  return String(s || '')
-    .replace(/[^\w.-]+/g,'-')
-    .replace(/-+/g,'-')
-    .replace(/^-|-$/g,'')
-    .slice(0,80);
+/* ---------- Stripe link helpers ---------- */
+function lookupKeyFor(sku, price) {
+  // stable key so prices are reused
+  const cents = Math.round(Number(price || 0) * 100);
+  return `sku_${sku}__${cents}_${CURRENCY}`;
 }
 
-function extFrom(contentType, url){
-  if (contentType?.includes('png')) return '.png';
-  if (contentType?.includes('jpeg') || contentType?.includes('jpg')) return '.jpg';
-  if (contentType?.includes('webp')) return '.webp';
-  const m = String(url).match(/\.(png|jpg|jpeg|webp)(\?|$)/i);
-  return m ? `.${m[1].toLowerCase()}` : '.jpg';
+async function ensurePrice({ sku, price }) {
+  const cents = Math.round(Number(price) * 100);
+  const lookup_key = lookupKeyFor(sku, price);
+
+  // Try reuse by lookup_key
+  const search = await stripe.prices.search({ query: `active:'true' AND lookup_key:'${lookup_key}'` });
+  if (search.data?.length) return search.data[0];
+
+  // Else create new price (and new product if needed)
+  const p = await stripe.products.create({ name: sku, metadata: { sku } });
+  return await stripe.prices.create({
+    unit_amount: cents,
+    currency: CURRENCY,
+    product: p.id,
+    lookup_key,
+    metadata: { sku }
+  });
 }
 
-async function fetchBuffer(u){
-  const r = await fetch(u);
-  if (!r.ok) throw new Error(`fetch ${u} ${r.status}`);
-  const buf = Buffer.from(await r.arrayBuffer());
-  const type = r.headers.get('content-type') || '';
-  return { buf, type };
+async function ensureStripeLink({ name, sku, price }) {
+  const pr = await ensurePrice({ sku, price });
+  const links = await stripe.paymentLinks.list({ limit: 10, active: true, expand: [] });
+
+  const found = links.data.find(l =>
+    Array.isArray(l.line_items) &&
+    l.line_items.length === 1 &&
+    l.line_items[0].price === pr.id
+  );
+  if (found) return found.url;
+
+  const created = await stripe.paymentLinks.create({
+    line_items: [{ price: pr.id, quantity: 1 }],
+    after_completion: { type: "redirect", redirect: { url: "https://thank.you/" } },
+    metadata: { sku },
+  });
+  return created.url;
 }
 
-async function cacheImagesForSKU(sku, urls){
-  const baseDir = path.join('assets','products', safeSlug(sku));
-  await fs.mkdir(baseDir, { recursive: true });
-  const out = [];
-  let i = 1;
-  for (const u of urls){
-    try{
-      const { buf, type } = await fetchBuffer(u);
-      const ext = extFrom(type, u);
-      const name = String(i).padStart(2,'0') + ext;
-      const rel = path.join('assets','products', safeSlug(sku), name).replaceAll('\\','/');
-      await fs.writeFile(path.join(baseDir, name), buf);
-      out.push(rel);
-      i++;
-      await sleep(80); // be gentle
-    }catch(e){
-      console.log(`image cache fail ${sku}: ${e.message}`);
-    }
-  }
-  return out;
-}
+/* ---------- main ---------- */
+async function run() {
+  out(`Mode=${STRIPE_MODE}  Currency=${CURRENCY}`);
 
-// Stripe product/price/payment link, idempotent via lookup keys
-async function ensureStripeLink({ name, sku, price, currency }) {
-  const productLookup = `prod_${sku}`;
-  const priceLookup   = `price_${sku}_${currency}_${Math.round(price*100)}`;
-
-  // Product
-  let product;
-  try {
-    const list = await stripe.products.search({ query: `active:'true' AND metadata['lookup_key']:'${productLookup}'` });
-    if (list.data[0]) product = list.data[0];
-  } catch {}
-  if (!product) {
-    product = await stripe.products.create({
-      name: String(name).slice(0,80),
-      active: true,
-      metadata: { lookup_key: productLookup, sku }
-    });
-  }
-
-  // Price
-  let priceObj;
-  try {
-    const list = await stripe.prices.search({ query: `active:'true' AND lookup_keys:'${priceLookup}'` });
-    if (list.data[0]) priceObj = list.data[0];
-  } catch {}
-  if (!priceObj) {
-    priceObj = await stripe.prices.create({
-      currency,
-      unit_amount: Math.round(price*100),
-      product: product.id,
-      lookup_key: priceLookup,
-      active: true
-    });
-  }
-
-  // Payment link
-  let link;
-  try {
-    const list = await stripe.paymentLinks.list({ limit: 100 });
-    link = list.data.find(l => l.metadata?.sku === sku);
-  } catch {}
-  if (!link) {
-    for (let tries=0; tries<3; tries++){
-      try {
-        link = await stripe.paymentLinks.create({
-          line_items: [{ price: priceObj.id, quantity: 1 }],
-          metadata: { sku }
-        });
-        break;
-      } catch (e) {
-        if (e?.statusCode === 429) { await sleep(600 * (tries+1)); continue; }
-        throw e;
-      }
-    }
-  }
-
-  return link?.url;
-}
-
-// ====== MAIN ======
-(async ()=>{
-  console.log(`[sync] Mode=${MODE}  Currency=${CURRENCY}`);
   const rows = [];
 
-  for await (const page of readAll(NOTION_DB_ID)) {
-    const pr = page.properties || {};
-    const name   = getPlain(pr[PROPS.name]);
-    const active = getPlain(pr[PROPS.active]);
-    const price  = getPlain(pr[PROPS.price]);
-    const sku    = getPlain(pr[PROPS.sku]);
+  for await (const page of pages(NOTION_DB_ID)) {
+    const props = page.properties || {};
+    const name  = asText(props[PROPS.name]);
+    const sku   = asText(props[PROPS.sku]);
+    const price = asText(props[PROPS.price]);
+    const active= asText(props[PROPS.active]);
 
-    if (!name || !sku || typeof price !== 'number') {
-      console.log('SKIP (missing fields):', { name, sku, price });
+    if (!name || !sku || typeof price !== "number") {
+      out("SKIP (missing fields):", { name, sku, price });
       continue;
     }
 
-    const notionImageURLs = [
-      ...notionFiles(pr[PROPS.image]),
-      ...notionFiles(pr[PROPS.var1]),
-      ...notionFiles(pr[PROPS.var2]),
-    ];
+    // images/variants from Notion files
+    const primary = asFiles(props[PROPS.image]).map(f => ({ url: f.url, alt: name })).slice(0, 1);
+    const variants = [
+      ...asFiles(props[PROPS.v1]),
+      ...asFiles(props[PROPS.v2]),
+      ...asFiles(props[PROPS.v3]),
+      ...asFiles(props[PROPS.v4]),
+      ...asFiles(props[PROPS.v5]),
+      ...asFiles(props[PROPS.v6]),
+    ].map((f, idx) => ({ label: `Variant ${idx+1}`, url: f.url })).slice(0, 12);
 
-    // Stripe link
-    let url;
+    let link;
     try {
-      url = await ensureStripeLink({ name: String(name).slice(0,80), sku, price, currency: CURRENCY });
+      const safeName = String(name).slice(0, 80);
+      link = await ensureStripeLink({ name: safeName, sku, price });
     } catch (e) {
-      console.log(`Stripe error for ${sku}: ${e.message}`);
-      continue;
+      out(`Stripe error for ${sku}: ${e.message}`);
+      link = "";
     }
-
-    // Write URL back to Notion
-    const targetProp = MODE === 'test' ? PROPS.urlTest : PROPS.urlLive;
-    try {
-      await notion.pages.update({ page_id: page.id, properties: { [targetProp]: { url } } });
-    } catch (e) {
-      console.log(`Notion update failed for ${sku}: ${e.message}`);
-    }
-
-    // Cache images locally and use repo paths
-    const localImages = await cacheImagesForSKU(sku, notionImageURLs);
 
     rows.push({
-      id: page.id,
+      id: page.id.replace(/-/g, ""),
       name,
       sku,
       price,
       currency: CURRENCY,
-      link: url,
-      mode: MODE,
+      link,
+      mode: STRIPE_MODE,
       active: !!active,
-      images: localImages
+      images: primary,     // [{url, alt}]
+      variants             // [{label,url}]
     });
   }
 
-  await fs.mkdir('data', { recursive: true });
-  await fs.writeFile(path.join('data','products.json'), JSON.stringify(rows, null, 2), 'utf8');
-  console.log(`Done. ${rows.length} product(s) processed. Wrote data/products.json`);
-})().catch(err => { console.error(err); process.exit(1); });
+  await fs.mkdir("data", { recursive: true });
+  await fs.writeFile(path.join("data", "products.json"), JSON.stringify(rows, null, 2), "utf8");
+  out(`Done. ${rows.length} product(s) processed. Wrote data/products.json`);
+}
+
+run().catch(err => { console.error(err); process.exit(1); });

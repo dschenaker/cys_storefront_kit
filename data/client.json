@@ -1,11 +1,13 @@
 {
   "name": "CYS Storefront",
   "slug": "cys",
-
   "brand": {
-    "logo": "assets/media/CYS_FC-01.jpg",
-    "hero": "assets/media/CYS_FC-01.jpg",
-    "accent": "#0f172a"
+    "logo": "assets/branding/CYS_FC-01.jpg",
+    "hero": "assets/branding/CYS_FC-01.jpg",
+    "accent": "#1cb0f6",
+    "text": "#e8eef7",
+    "bg1": "#0b1221",
+    "bg2": "#0f182b"
   },
 
   "sku_allowlist": [
