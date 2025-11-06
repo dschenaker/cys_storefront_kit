@@ -113,3 +113,5 @@ dialog{ border:none; border-radius:16px; padding:0; background: transparent; }
 .chip{padding:6px 10px;border-radius:999px;background:#0f172a;border:1px solid #26324d;color:#cbd5e1;cursor:pointer}
 .chip:hover{filter:brightness(1.1)}
 .sort select{background:#0f172a;border:1px solid #26324d;color:#e2e8f0;padding:6px 10px;border-radius:8px}
+.brand-logo{max-height:48px; width:auto; object-fit:contain; display:block}
+.brand-wrap{display:flex; align-items:center; gap:12px}
