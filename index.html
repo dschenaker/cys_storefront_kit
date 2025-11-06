@@ -6,7 +6,7 @@
   <title>CYS Storefront</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
-<<body>
+<body>
   <header class="site-header">
     <div class="hero">
       <img id="brand-logo" alt="Brand logo" />
@@ -73,5 +73,60 @@
   #customizer button { padding:8px 10px; border-radius:8px; border:0; background:#0ea5e9; color:#fff; cursor:pointer;}
   #customizer h3 { margin:0 0 4px; font-size:1rem; }
 </style>
+
+<!-- Customizer Panel -->
+<div id="editor" class="editor hidden" aria-hidden="true">
+  <div class="editor-inner">
+    <div class="editor-head">
+      <h3>Storefront Customizer</h3>
+      <button id="ed-close" class="ed-btn">✕</button>
+    </div>
+
+    <div class="ed-grid">
+      <label>Store Name
+        <input id="ed-name" type="text" placeholder="CYS Storefront">
+      </label>
+      <label>Subtitle
+        <input id="ed-sub" type="text" placeholder="Official merch • quick checkout via Stripe">
+      </label>
+
+      <label>Logo URL
+        <input id="ed-logo" type="url" placeholder="assets/branding/cys/logo.jpg">
+      </label>
+      <label>Hero URL
+        <input id="ed-hero" type="url" placeholder="assets/branding/cys/hero.jpg">
+      </label>
+      <label>Watermark URL (optional)
+        <input id="ed-watermark" type="url" placeholder="assets/branding/cys/watermark.png">
+      </label>
+
+      <label>Accent Color
+        <input id="ed-accent" type="text" placeholder="#0f172a">
+      </label>
+      <label>Button Color
+        <input id="ed-btn" type="text" placeholder="#1992ff">
+      </label>
+      <label>Card Radius (px)
+        <input id="ed-radius" type="number" min="0" step="1" placeholder="16">
+      </label>
+      <label>Grid Columns (1–6)
+        <input id="ed-cols" type="number" min="1" max="6" step="1" placeholder="4">
+      </label>
+    </div>
+
+    <div class="editor-actions">
+      <button id="ed-apply" class="ed-primary">Apply</button>
+      <button id="ed-copy">Copy JSON</button>
+      <button id="ed-download">Download JSON</button>
+      <button id="ed-reset">Reset</button>
+    </div>
+    <p class="ed-note">
+      Changes preview instantly. Use <b>Copy JSON</b> or <b>Download JSON</b>, then paste/replace
+      <code>data/client.json</code> and commit.
+    </p>
+  </div>
+</div>
+
+<script src="scripts/customizer.js"></script>
 </body>
 </html>

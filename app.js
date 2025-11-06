@@ -1,12 +1,18 @@
-async function loadJSON(path) {
+async function j(path) {
   const r = await fetch(path, { cache: "no-store" });
   if (!r.ok) throw new Error(`Failed to load ${path}: ${r.status}`);
   return r.json();
 }
 
-function applyTheme(theme = {}) {
+// ---------- THEME + HEADER ----------
+function setVars(vars = {}) {
   const root = document.documentElement;
-  const map = {
+  for (const [k, v] of Object.entries(vars)) {
+    if (v) root.style.setProperty(k, v);
+  }
+}
+function applyTheme(theme = {}) {
+  setVars({
     "--accent": theme.accent,
     "--text": theme.text,
     "--muted": theme.muted,
@@ -14,55 +20,77 @@ function applyTheme(theme = {}) {
     "--card-edge": theme.cardEdge,
     "--btn": theme.btn,
     "--btn-text": theme.btnText
-  };
-  Object.entries(map).forEach(([k, v]) => { if (v) root.style.setProperty(k, v); });
+  });
 }
-
 function setHero({ brand = {}, heading, subheading, name }) {
   const logoEl = document.getElementById("brand-logo");
   const titleEl = document.getElementById("site-title");
-  const subEl = document.getElementById("site-subtitle");
-  const footerBrand = document.getElementById("brand-name");
-  const yearEl = document.getElementById("year");
-  const heroBlock = document.querySelector(".hero");
+  const subEl   = document.getElementById("site-subtitle");
+  const yearEl  = document.getElementById("year");
+  const brandEl = document.getElementById("brand-name");
 
   if (logoEl && brand.logo) logoEl.src = brand.logo;
   if (titleEl) titleEl.textContent = heading || name || "Storefront";
-  if (subEl) subEl.textContent = subheading || "";
-  if (footerBrand) footerBrand.textContent = name || "Storefront";
-  if (yearEl) yearEl.textContent = new Date().getFullYear();
+  if (subEl)   subEl.textContent   = subheading || "";
+  if (brandEl) brandEl.textContent = name || "Storefront";
+  if (yearEl)  yearEl.textContent  = new Date().getFullYear();
 
-  // hero background image
-  if (brand.hero && heroBlock) {
-    heroBlock.style.setProperty("--hero-img", `url("${brand.hero}")`);
-    // fallback for older CSS: set directly on ::after through style attribute
-    const stylesheetHero = document.querySelector("style[data-hero]");
-    if (!stylesheetHero) {
-      const s = document.createElement("style");
-      s.dataset.hero = "1";
-      s.textContent = `.hero::after{background-image:url("${brand.hero}")}`;
-      document.head.appendChild(s);
-    } else {
-      stylesheetHero.textContent = `.hero::after{background-image:url("${brand.hero}")}`;
+  if (brand.hero) {
+    let tag = document.querySelector("style[data-hero]");
+    if (!tag) {
+      tag = document.createElement("style");
+      tag.dataset.hero = "1";
+      document.head.appendChild(tag);
+    }
+    tag.textContent = `.hero::after{background-image:url("${brand.hero}")}`;
+  }
+}
+
+// ---------- FILTER ----------
+function allowed(p, cfg) {
+  const sku = p.sku || "";
+  const hasAllow = Array.isArray(cfg.sku_allowlist) && cfg.sku_allowlist.length;
+  const hasPref  = Array.isArray(cfg.sku_prefixes)  && cfg.sku_prefixes.length;
+
+  if (hasAllow && cfg.sku_allowlist.includes(sku)) return true;
+  if (hasPref  && cfg.sku_prefixes.some(pre => sku.startsWith(pre))) return true;
+  if (hasAllow || hasPref) return false; // lists exist, but no match
+  return true; // no lists -> show all
+}
+
+// ---------- IMAGE PICKER (robust) ----------
+function firstUrl(v) {
+  if (!v) return null;
+  if (typeof v === "string") return v;
+  if (Array.isArray(v)) {
+    for (const x of v) { const u = firstUrl(x); if (u) return u; }
+    return null;
+  }
+  if (typeof v === "object") {
+    // Notion file object shapes
+    if (v.file && v.file.url) return v.file.url;
+    if (v.external && v.external.url) return v.external.url;
+    // generic nested
+    for (const k of Object.keys(v)) {
+      const u = firstUrl(v[k]);
+      if (u) return u;
     }
   }
+  return null;
 }
 
-function allowed(product, cfg) {
-  const sku = product.sku || "";
-  if (Array.isArray(cfg.sku_allowlist) && cfg.sku_allowlist.length) {
-    if (cfg.sku_allowlist.includes(sku)) return true;
-  }
-  if (Array.isArray(cfg.sku_prefixes) && cfg.sku_prefixes.length) {
-    if (cfg.sku_prefixes.some(p => sku.startsWith(p))) return true;
-  }
-  // if lists exist and none matched -> hide
-  if ((cfg.sku_allowlist && cfg.sku_allowlist.length) || (cfg.sku_prefixes && cfg.sku_prefixes.length)) {
-    return false;
-  }
-  return true; // default show
+function pickImage(product) {
+  // common shapes we’ve seen
+  return (
+    firstUrl(product.images) ||
+    firstUrl(product.image)  ||
+    firstUrl(product.media)  ||
+    firstUrl(product.cover)  ||
+    null
+  );
 }
 
+// ---------- RENDER ----------
 function render(products) {
   const grid = document.getElementById("grid");
   grid.innerHTML = "";
@@ -74,10 +102,12 @@ function render(products) {
     media.className = "card-media";
     const img = document.createElement("img");
     img.loading = "lazy";
-    img.alt = p.name || "Product";
+    img.alt = p.name || p.sku || "Product";
+
+    const url = pickImage(p);
+    img.src = url || "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==";
     img.style.maxWidth = "100%";
     img.style.maxHeight = "100%";
-    if (Array.isArray(p.images) && p.images.length) img.src = p.images[0];
     media.appendChild(img);
 
     const title = document.createElement("div");
@@ -86,7 +116,8 @@ function render(products) {
 
     const price = document.createElement("div");
     price.className = "card-price";
-    price.textContent = p.price != null ? `$${Number(p.price).toFixed(2)}` : "";
+    const cents = Number(p.price);
+    price.textContent = Number.isFinite(cents) ? `$${cents.toFixed(2)}` : "";
 
     const actions = document.createElement("div");
     actions.className = "card-actions";
@@ -101,17 +132,14 @@ function render(products) {
   }
 }
 
+// ---------- START ----------
 async function start() {
-  // 1) client config (branding + filter)
-  const client = await loadJSON("data/client.json");
+  const client = await j("data/client.json");
   applyTheme(client.theme || {});
   setHero(client);
 
-  // 2) products (already built from Notion)
-  const products = await loadJSON("data/products.json");
-
-  // 3) filter to client inventory
-  const filtered = products.filter(p => allowed(p, client));
+  const all = await j("data/products.json");
+  const filtered = all.filter(p => allowed(p, client));
   render(filtered);
 }
 
