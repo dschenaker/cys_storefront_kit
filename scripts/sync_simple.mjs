@@ -1,44 +1,45 @@
-cat > scripts/sync_simple.mjs <<'EOF'
+// scripts/sync_simple.mjs
 import 'dotenv/config';
-import fs from 'node:fs/promises';
-import path from 'node:path';
+import fs from 'fs/promises';
+import path from 'path';
 import Stripe from 'stripe';
-import { Client as Notion } from '@notionhq/client';
+import { Client } from '@notionhq/client';
 
 const STRIPE_MODE = (process.env.STRIPE_MODE || 'live').toLowerCase(); // 'test' | 'live'
 const CURRENCY = (process.env.CURRENCY || 'usd').toLowerCase();
+
+const STRIPE_KEY = STRIPE_MODE === 'live' ? process.env.STRIPE_API_KEY_LIVE : process.env.STRIPE_API_KEY_TEST;
+if (!STRIPE_KEY) {
+  console.error(`Missing Stripe key: STRIPE_API_KEY_${STRIPE_MODE.toUpperCase()}`);
+  process.exit(1);
+}
+const stripe = new Stripe(STRIPE_KEY, { apiVersion: '2024-06-20' });
+
+// Notion
 const NOTION_TOKEN = process.env.NOTION_TOKEN;
 const NOTION_DB_ID = process.env.NOTION_DB_ID;
-const STRIPE_API_KEY =
-  STRIPE_MODE === 'test' ? process.env.STRIPE_API_KEY_TEST : process.env.STRIPE_API_KEY_LIVE;
+if (!NOTION_TOKEN || !NOTION_DB_ID) {
+  console.error('Missing NOTION_TOKEN or NOTION_DB_ID.');
+  process.exit(1);
+}
+const notion = new Client({ auth: NOTION_TOKEN });
 
-if (!NOTION_TOKEN) throw new Error('Missing NOTION_TOKEN');
-if (!NOTION_DB_ID) throw new Error('Missing NOTION_DB_ID');
-if (!STRIPE_API_KEY) throw new Error(`Missing STRIPE_API_KEY for mode=${STRIPE_MODE}`);
-
-const stripe = new Stripe(STRIPE_API_KEY, { apiVersion: '2024-06-20' });
-const notion = new Notion({ auth: NOTION_TOKEN });
-
-// --- Helpers ---
+// Property names in your Notion DB
 const PROPS = {
   name: 'Product Name',
-  active: 'Active',
   price: 'Price',
   sku: 'Product SKU',
+  active: 'Active',
   urlLive: 'PaymentURL',
   urlTest: 'Stripe Link (Test)',
 };
 
 function getPlain(p) {
   if (!p) return undefined;
-  if (p.type === 'title' || p.type === 'rich_text') {
-    return (p[p.type] || []).map(t => t.plain_text).join('');
-  }
-  if (p.type === 'number') return p.number;
-  if (p.type === 'checkbox') return !!p.checkbox;
+  if (p.type === 'title' || p.type === 'rich_text') return (p[p.type] || []).map(t => t.plain_text).join('');
   if (p.type === 'url') return p.url || undefined;
-  if (p.type === 'select') return p.select?.name;
-  if (p.type === 'multi_select') return (p.multi_select || []).map(x => x.name);
+  if (p.type === 'checkbox') return !!p.checkbox;
+  if (p.type === 'number') return p.number ?? undefined;
   return undefined;
 }
 
@@ -56,112 +57,102 @@ async function* readAll(database_id) {
   } while (cursor);
 }
 
-// --- Stripe upserts (no search by unit_amount) ---
-async function ensureProduct({ sku, name }) {
-  // Prefer search by metadata.sku if available; fallback list (small catalogs)
-  let prodId = null;
-  try {
-    const res = await stripe.products.search({
-      query: `active:'true' AND metadata['sku']:'${sku.replace(/'/g, "\\'")}'`,
-      limit: 1,
-    });
-    if (res?.data?.[0]) prodId = res.data[0].id;
-  } catch {
-    // search not available or metadata filter disabled; ignore
+async function ensureProduct({ name, sku }) {
+  // Try to find an existing product by metadata.sku (we create with metadata.sku)
+  let found = null;
+  const list = stripe.products.list({ limit: 100, active: true });
+  for await (const p of list.autoPagingEach ? list.autoPagingEach() : list) {
+    if (p.metadata?.sku === sku || p.name === name) { found = p; break; }
   }
+  if (found) return found;
 
-  if (!prodId) {
-    // try list then filter by metadata
-    const list = await stripe.products.list({ active: true, limit: 100 });
-    const hit = list.data.find(p => p.metadata?.sku === sku);
-    if (hit) prodId = hit.id;
-  }
-
-  if (prodId) return prodId;
-
-  const created = await stripe.products.create({
-    name: String(name).slice(0, 80),
+  const safe = String(name).slice(0, 80);
+  return stripe.products.create({
+    name: safe,
     active: true,
     metadata: { sku },
   });
-  return created.id;
 }
 
-async function ensurePrice({ product, amount, currency }) {
-  // Stripe doesn't let us search prices by unit_amount; list and filter in JS.
-  const prices = await stripe.prices.list({ product, active: true, limit: 100 });
-  const found = prices.data.find(p => p.currency === currency && p.unit_amount === amount);
-  if (found) return found.id;
-
-  const lookup_key = `${product}:${currency}:${amount}`;
-  const created = await stripe.prices.create({
-    product,
+async function ensurePrice({ productId, sku, amount, currency }) {
+  // First try lookup_key, which is the stable way to find the intended price
+  const iter = stripe.prices.list({ limit: 100, lookup_keys: [sku], active: true, product: productId, currency });
+  for await (const pr of iter.autoPagingEach ? iter.autoPagingEach() : iter) {
+    if (pr.lookup_key === sku) return pr;
+  }
+  // Otherwise, create a new price and attach lookup_key = sku
+  return stripe.prices.create({
     currency,
-    unit_amount: amount,
-    lookup_key,
-    // one-off (not recurring)
+    unit_amount: Math.round(Number(amount) * 100),
+    product: productId,
+    active: true,
+    lookup_key: sku,
   });
-  return created.id;
 }
 
-async function createPaymentLink({ priceId }) {
-  // Simple: create a new Payment Link pointing at that price.
-  // (We don't try to de-duplicate links; Notion will hold the latest URL.)
-  const pl = await stripe.paymentLinks.create({
+async function ensurePaymentLink({ priceId }) {
+  // Reuse existing link for the same price when possible
+  const links = stripe.paymentLinks.list({ limit: 100, active: true });
+  for await (const l of links.autoPagingEach ? links.autoPagingEach() : links) {
+    const item = l.line_items?.data?.[0];
+    if (item?.price === priceId) return l;
+  }
+  return stripe.paymentLinks.create({
     line_items: [{ price: priceId, quantity: 1 }],
-    after_completion: { type: 'redirect', redirect: { url: 'https://thankyou.invalid/' } },
-    metadata: { source: 'notion_storefront_kit' },
+    after_completion: { type: 'redirect', redirect: { url: 'https://stripe.com/thanks' } },
   });
-  return pl.url;
 }
 
 async function ensureStripeLink({ name, sku, price, currency }) {
-  const cents = Math.round(Number(price) * 100);
-  if (!Number.isFinite(cents) || cents < 0) throw new Error('Bad price');
-
-  const productId = await ensureProduct({ sku, name });
-  const priceId = await ensurePrice({ product: productId, amount: cents, currency });
-  const url = await createPaymentLink({ priceId });
-  return url;
+  const product = await ensureProduct({ name, sku });
+  const priceObj = await ensurePrice({ productId: product.id, sku, amount: price, currency });
+  const link = await ensurePaymentLink({ priceId: priceObj.id });
+  return link.url;
 }
 
-// --- Main ---
-console.log(`[sync] Mode=${STRIPE_MODE}  Currency=${CURRENCY}`);
+function out(...args) { console.log('[sync]', ...args); }
 
-const rows = [];
-for await (const page of readAll(NOTION_DB_ID)) {
-  const props = page.properties || {};
-  const name = getPlain(props[PROPS.name]);
-  const active = getPlain(props[PROPS.active]);
-  const price = getPlain(props[PROPS.price]);
-  const sku = getPlain(props[PROPS.sku]);
+async function run() {
+  out(`Mode=${STRIPE_MODE}  Currency=${CURRENCY}`);
 
-  if (!name || !sku || typeof price !== 'number') {
-    console.log('SKIP (missing fields):', { name, sku, price });
-    continue;
+  const rows = [];
+
+  for await (const page of readAll(NOTION_DB_ID)) {
+    const props = page.properties || {};
+    const name = getPlain(props[PROPS.name]);
+    const active = getPlain(props[PROPS.active]);
+    const price = getPlain(props[PROPS.price]);
+    const sku = getPlain(props[PROPS.sku]);
+
+    if (!name || !sku || typeof price !== 'number') {
+      out('SKIP (missing fields):', { name, sku, price });
+      continue;
+    }
+
+    let url;
+    try {
+      const safeName = String(name).slice(0, 80);
+      url = await ensureStripeLink({ name: safeName, sku, price, currency: CURRENCY });
+    } catch (e) {
+      out(`Stripe error for ${sku}: ${e.message}`);
+      continue;
+    }
+
+    const targetProp = STRIPE_MODE === 'test' ? PROPS.urlTest : PROPS.urlLive;
+    try {
+      await notion.pages.update({ page_id: page.id, properties: { [targetProp]: { url } } });
+    } catch (e) {
+      out(`Notion update failed for ${sku}: ${e.message}`);
+    }
+
+    rows.push({
+      id: page.id, name, sku, price, currency: CURRENCY, link: url, mode: STRIPE_MODE, active: !!active
+    });
   }
 
-  let url;
-  try {
-    const safeName = String(name).slice(0, 80);
-    url = await ensureStripeLink({ name: safeName, sku, price, currency: CURRENCY });
-  } catch (e) {
-    console.log(`Stripe error for ${sku}: ${e.message}`);
-    continue;
-  }
-
-  const targetProp = STRIPE_MODE === 'test' ? PROPS.urlTest : PROPS.urlLive;
-  try {
-    await notion.pages.update({ page_id: page.id, properties: { [targetProp]: { url } } });
-  } catch (e) {
-    console.log(`Notion update failed for ${sku}: ${e.message}`);
-  }
-
-  rows.push({ id: page.id, name, sku, price, currency: CURRENCY, link: url, mode: STRIPE_MODE, active: !!active });
+  await fs.mkdir(path.join('data'), { recursive: true });
+  await fs.writeFile(path.join('data', 'products.json'), JSON.stringify(rows, null, 2), 'utf8');
+  out(`Done. ${rows.length} product(s) processed. Wrote data/products.json`);
 }
 
-// Write products.json for site
-await fs.mkdir(path.join('data'), { recursive: true });
-await fs.writeFile(path.join('data', 'products.json'), JSON.stringify(rows, null, 2), 'utf8');
-console.log(`Done. ${rows.length} product(s) processed. Wrote data/products.json`);
-EOF
+run().catch(err => { console.error(err); process.exit(1); });
