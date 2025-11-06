@@ -13,6 +13,24 @@ async function loadJSON(path) {
   if (!res.ok) throw new Error(`Failed to load ${path}: ${res.status}`);
   return res.json();
 }
+const BUCKETS = [
+  { key: "tops",      label: "Tops",      test: p => /Sleeve|Zip|Sweater/i.test(p.name) },
+  { key: "table",     label: "Table",     test: p => /Tablecloth/i.test(p.name) },
+  { key: "tents",     label: "Tents",     test: p => /Tent/i.test(p.name) },
+  { key: "all",       label: "All",       test: _ => true }
+];
+
+function bucketOf(p){ return BUCKETS.find(b=>b.test(p))?.key || "all"; }
+
+let activeBucket = "all";
+let sortMode = "name"; // "name" | "price"
+
+function getVisibleProducts() {
+  let list = products.filter(p => activeBucket === "all" ? true : bucketOf(p) === activeBucket);
+  if (sortMode === "price") list.sort((a,b)=> (a.price||0)-(b.price||0));
+  else list.sort((a,b)=> String(a.name).localeCompare(String(b.name)));
+  return list;
+}
 
 function setBrandTheme(brand) {
   // CSS variables drive the theme
@@ -46,6 +64,37 @@ function byClientFilter(products, client) {
 function money(n) {
   return `$${Number(n).toFixed(2)}`;
 }
+
+const bar = document.querySelector("#toolbar");
+bar.innerHTML = `
+  <div class="toolbar">
+    <div class="chips">
+      ${BUCKETS.map(b => `<button class="chip" data-b="${b.key}">${b.label}</button>`).join("")}
+    </div>
+    <div class="sort">
+      <label>Sort</label>
+      <select id="sortSel">
+        <option value="name">A–Z</option>
+        <option value="price">Price</option>
+      </select>
+    </div>
+  </div>
+`;
+
+bar.addEventListener("click", e=>{
+  const b = e.target.dataset?.b;
+  if (!b) return;
+  activeBucket = b;
+  renderProducts(getVisibleProducts());
+});
+
+document.querySelector("#sortSel").addEventListener("change", e=>{
+  sortMode = e.target.value;
+  renderProducts(getVisibleProducts());
+});
+
+// initial draw
+renderProducts(getVisibleProducts());
 
 function renderProducts(list) {
   const grid = $("#grid");

@@ -108,3 +108,8 @@ dialog{ border:none; border-radius:16px; padding:0; background: transparent; }
   background: rgba(255,255,255,0.06); color: var(--color-text);
 }
 .admin-actions{ display:flex; gap:10px; justify-content:flex-end; margin-top:14px; }
+.toolbar{display:flex;justify-content:space-between;align-items:center;margin:12px 0;gap:12px}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{padding:6px 10px;border-radius:999px;background:#0f172a;border:1px solid #26324d;color:#cbd5e1;cursor:pointer}
+.chip:hover{filter:brightness(1.1)}
+.sort select{background:#0f172a;border:1px solid #26324d;color:#e2e8f0;padding:6px 10px;border-radius:8px}
