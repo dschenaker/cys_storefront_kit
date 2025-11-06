@@ -2,12 +2,9 @@
   "name": "CYS Storefront",
   "slug": "cys",
   "brand": {
-    "logo": "assets/branding/CYS_FC-01.jpg",
-    "hero": "assets/branding/CYS_FC-01.jpg",
-    "accent": "#1cb0f6",
-    "text": "#e8eef7",
-    "bg1": "#0b1221",
-    "bg2": "#0f182b"
+    "logo": "assets/branding/cys/logo.jpg",
+    "hero": "assets/branding/cys/hero.jpg",
+    "accent": "#0f172a"
   },
 
   "sku_allowlist": [
@@ -25,10 +22,10 @@
     "CYS-Tablecloth-6",
     "CYS-Tablecloth-8",
     "CYS-Sleeveless",
-    "CYS Tent 3x3m (Includes Flags and Tablecloth) - 40mm Square frame",
-    "CYS Tent 3x3m (Includes Flags and Tablecloth) - 50mm hexagon frame",
-    "CYS Tent 3x6m (Includes Flags and Tablecloth) - 40mm hexagon frame",
-    "CYS Tent 3x6m (Includes Flags and Tablecloth) - 50mm hexagon frame"
+    "CYS-Tent-3x3-40mm-Square",
+    "CYS-Tent-3x3-50mm-Square",
+    "CYS-Tent-3x6-40mm-Square",
+    "CYS-Tent-3x6-50mm-Square"
   ],
 
   "sku_prefixes": ["CYS-"]
