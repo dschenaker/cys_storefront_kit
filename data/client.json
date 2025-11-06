@@ -2,9 +2,14 @@
   "name": "CYS Storefront",
   "slug": "cys",
   "brand": {
-    "logo": "assets/branding/cys/logo.jpg",
-    "hero": "assets/branding/cys/hero.jpg",
-    "accent": "#0f172a"
+    "logo": "assets/media/CYS_FC-01.jpg",
+    "hero": "assets/media/CYS_FC-01.jpg",
+
+    "accent":  "#1db954",
+    "primary": "#1db954",
+    "text":    "#e7f3ea",
+    "bg1":     "#0b1316",
+    "bg2":     "#0f1a1f"
   },
 
   "sku_allowlist": [
@@ -27,6 +32,5 @@
     "CYS-Tent-3x6-40mm-Square",
     "CYS-Tent-3x6-50mm-Square"
   ],
-
   "sku_prefixes": ["CYS-"]
 }
