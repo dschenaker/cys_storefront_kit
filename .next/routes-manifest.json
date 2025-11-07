@@ -2,26 +2,84 @@
   "version": 3,
   "pages404": true,
   "caseSensitive": false,
-  "basePath": "",
+  "basePath": "/cys_storefront_kit",
   "redirects": [
     {
-      "source": "/:path+/",
-      "destination": "/:path+",
+      "source": "/cys_storefront_kit",
+      "destination": "/cys_storefront_kit/",
+      "basePath": false,
       "internal": true,
       "priority": true,
       "statusCode": 308,
-      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+      "regex": "^/cys_storefront_kit$"
+    },
+    {
+      "source": "/:file((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/]+\\.\\w+)/",
+      "destination": "/:file",
+      "internal": true,
+      "priority": true,
+      "missing": [
+        {
+          "type": "header",
+          "key": "x-nextjs-data"
+        }
+      ],
+      "statusCode": 308,
+      "regex": "^(?:/((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/]+\\.\\w+))/$"
+    },
+    {
+      "source": "/:notfile((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/\\.]+)",
+      "destination": "/:notfile/",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/\\.]+))$"
     }
   ],
   "headers": [],
   "rewrites": {
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/cys_storefront_kit//_next/:path+",
+        "destination": "/cys_storefront_kit/_next/:path+",
+        "regex": "^/cys_storefront_kit//_next(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))(?:/)?$"
+      }
+    ],
     "afterFiles": [],
     "fallback": []
   },
-  "dynamicRoutes": [],
-  "staticRoutes": [],
-  "dataRoutes": [],
+  "dynamicRoutes": [
+    {
+      "page": "/[store]",
+      "regex": "^/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPstore": "nxtPstore"
+      },
+      "namedRegex": "^/(?<nxtPstore>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    }
+  ],
+  "dataRoutes": [
+    {
+      "page": "/",
+      "dataRouteRegex": "^/_next/data/HV5TOFf7RCXEUGAKMFeZp/index\\.json$"
+    },
+    {
+      "page": "/[store]",
+      "routeKeys": {
+        "nxtPstore": "nxtPstore"
+      },
+      "dataRouteRegex": "^/_next/data/HV5TOFf7RCXEUGAKMFeZp/([^/]+?)\\.json$",
+      "namedDataRouteRegex": "^/_next/data/HV5TOFf7RCXEUGAKMFeZp/(?<nxtPstore>[^/]+?)\\.json$"
+    }
+  ],
   "rsc": {
     "header": "rsc",
     "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",

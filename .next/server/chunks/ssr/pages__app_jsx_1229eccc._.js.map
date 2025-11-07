@@ -1,0 +1,1 @@
+{"version":3,"sources":["turbopack:///[project]/pages/_app.jsx"],"sourcesContent":["import \"../styles/globals.css\";\nexport default function App({ Component, pageProps }) { return <Component {...pageProps} />; }\n"],"names":[],"mappings":"sDACe,SAAS,EAAI,WAAE,CAAS,WAAE,CAAS,CAAE,EAAI,MAAO,CAAA,EAAA,EAAA,GAAA,EAAC,EAAA,CAAW,GAAG,CAAS,EAAM"}

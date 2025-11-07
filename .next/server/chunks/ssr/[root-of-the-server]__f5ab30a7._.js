@@ -1,0 +1,3 @@
+module.exports=[2734,(a,b,c)=>{b.exports=a.x("fs",()=>require("fs"))},2747,a=>{"use strict";var b=a.i(2734),c=a.i(4747);function d(){let a=c.default.join(process.cwd(),"public","stores");return b.default.existsSync(a)?b.default.readdirSync(a).filter(d=>b.default.existsSync(c.default.join(a,d,"client.json"))):[]}function e(a){let d=c.default.join(process.cwd(),"public","stores",a,"client.json");return JSON.parse(b.default.readFileSync(d,"utf8"))}function f(){let a=c.default.join(process.cwd(),"data","products.json");return JSON.parse(b.default.readFileSync(a,"utf8"))}a.s(["listStores",()=>d,"readClient",()=>e,"readProducts",()=>f])}];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__f5ab30a7._.js.map
