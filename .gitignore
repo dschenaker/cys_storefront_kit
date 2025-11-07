@@ -12,3 +12,5 @@ tmp/
 
 # GitHub metadata (unless you really want Actions)
 *.bak
+.next
+out
