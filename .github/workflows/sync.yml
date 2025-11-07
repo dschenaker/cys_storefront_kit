@@ -1,0 +1,93 @@
+name: NSK Sync & Deploy (v3)
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "15 3 * * *"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install deps
+        run: npm ci || npm i
+
+      - name: Check required secrets exist
+        shell: bash
+        run: |
+          chk() { val="${1}"; name="${2}"; if [ -z "${val}" ]; then
+            echo "❌ Missing secret: ${name}"; exit 1; else echo "✅ ${name} present"; fi; }
+          chk "${{ secrets.NOTION_TOKEN }}" "NOTION_TOKEN"
+          chk "${{ secrets.NOTION_DB_ID }}" "NOTION_DB_ID"
+          echo "ℹ️ Skipping settings.json sync for now."
+
+      - name: Prep data dir (clean products.json)
+        run: |
+          mkdir -p data
+          rm -f data/products.json
+
+      - name: Notion → products.json (instrumented)
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DB_ID: ${{ secrets.NOTION_DB_ID }}
+        run: |
+          set -euo pipefail
+          node --unhandled-rejections=strict scripts/notion_sync.js
+          echo "---- head data/products.json ----"
+          head -n 40 data/products.json || true
+          echo "---- quick count ----"
+          node -e "const fs=require('fs');const p=JSON.parse(fs.readFileSync('data/products.json','utf8'));console.log('Product count:', Array.isArray(p)?p.length:(p.items||[]).length||0);"
+
+      - name: Ensure settings.json exists (temporary)
+        run: |
+          mkdir -p data
+          if [ ! -s data/settings.json ]; then
+            echo '{"siteTitle":"Notion Storefront","brand":{"name":"Default"},"theme":{"primary":"#111827"}}' > data/settings.json
+            echo "⚠️ Created minimal data/settings.json (temporary)"
+          else
+            echo "✅ Using existing data/settings.json"
+          fi
+
+      - name: Stamp build time
+        run: echo "$(date -u +'%Y-%m-%d %H:%M:%S') UTC" > data/last_sync.txt
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./
+
+      - name: Stripe → upsert products & payment links (new/missing only)
+        if: ${{ success() }}
+        env:
+          STRIPE_API_KEY: ${{ secrets.STRIPE_API_KEY }}
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DB_ID: ${{ secrets.NOTION_DB_ID }}
+          STRIPE_MODE: test
+        run: |
+          set -euxo pipefail
+          node --unhandled-rejections=strict scripts/stripe_sync.js
+
+  deploy:
+    needs: sync
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
