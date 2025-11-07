@@ -1,15 +1,19 @@
 {
-  "name": "kitsune-lite-storefront",
-  "version": "1.0.0",
-  "type": "module",
+  "name": "cys_storefront_kit",
+  "version": "2.0.0",
   "private": true,
   "scripts": {
-    "sync:notion": "node scripts/notion_sync.js",
-    "sync": "node scripts/sync_simple.mjs"
+    "dev": "next dev -p 55500",
+    "build": "next build && next export",
+    "predeploy": "rm -rf out && npm run build",
+    "deploy": "gh-pages -d out -b gh-pages"
   },
   "dependencies": {
-    "@notionhq/client": "2.2.15",
-    "dotenv": "16.4.5",
-    "stripe": "16.10.0"
+    "next": "^14.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }

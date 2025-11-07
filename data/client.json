@@ -2,16 +2,13 @@
   "name": "CYS Storefront",
   "slug": "cys",
   "brand": {
-    "logo": "assets/media/CYS_FC-01.jpg",
-    "hero": "assets/media/CYS_FC-01.jpg",
-
-    "accent":  "#1db954",
+    "logo": "/cys_storefront_kit/assets/media/CYS_FC-01.jpg",
+    "hero": "/cys_storefront_kit/assets/media/CYS_FC-01.jpg",
     "primary": "#1db954",
-    "text":    "#e7f3ea",
-    "bg1":     "#0b1316",
-    "bg2":     "#0f1a1f"
+    "text": "#e7f3ea",
+    "bg1": "#0b1316",
+    "bg2": "#0f1a1f"
   },
-
   "sku_allowlist": [
     "CYS-Staff-Polo",
     "CYS-Long-Sleeve-Logo",
