@@ -9,7 +9,7 @@
     "deploy": "gh-pages -d out -b gh-pages"
   },
   "dependencies": {
-    "next": "^14.2.0",
+    "next": "^16.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
-const repoBase = "/cys_storefront_kit"; // GitHub Pages project base
-
+const repoBase = "/cys_storefront_kit";
 module.exports = {
   output: "export",
   basePath: repoBase,
