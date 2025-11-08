@@ -5,5 +5,5 @@ module.exports = {
   basePath: repoBase,
   assetPrefix: repoBase + "/",
   images: { unoptimized: true },
-  trailingSlash: true
+  trailingSlash: true,
 };

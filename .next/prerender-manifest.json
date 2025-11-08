@@ -4,7 +4,7 @@
     "/": {
       "initialRevalidateSeconds": false,
       "srcRoute": null,
-      "dataRoute": "/_next/data/HV5TOFf7RCXEUGAKMFeZp/index.json",
+      "dataRoute": "/_next/data/-ZW3_foGkRsaC5Ioh0M0_/index.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -17,7 +17,7 @@
     "/cys": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[store]",
-      "dataRoute": "/_next/data/HV5TOFf7RCXEUGAKMFeZp/cys.json",
+      "dataRoute": "/_next/data/-ZW3_foGkRsaC5Ioh0M0_/cys.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -31,9 +31,9 @@
   "dynamicRoutes": {
     "/[store]": {
       "routeRegex": "^/([^/]+?)(?:/)?$",
-      "dataRoute": "/_next/data/HV5TOFf7RCXEUGAKMFeZp/[store].json",
+      "dataRoute": "/_next/data/-ZW3_foGkRsaC5Ioh0M0_/[store].json",
       "fallback": false,
-      "dataRouteRegex": "^/_next/data/HV5TOFf7RCXEUGAKMFeZp/([^/]+?)\\.json$",
+      "dataRouteRegex": "^/_next/data/\\-ZW3_foGkRsaC5Ioh0M0_/([^/]+?)\\.json$",
       "allowHeader": [
         "host",
         "x-matched-path",
